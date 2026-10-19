@@ -1,0 +1,147 @@
+[gd_scene load_steps=5 format=3 uid="uid://xadwmv0dhdwb"]
+
+[ext_resource type="Script" path="res://Scripts/Main.cs" id="1_main"]
+[ext_resource type="PackedScene" path="res://Scenes/Enemy.tscn" id="2_enemy"]
+[ext_resource type="PackedScene" path="res://Scenes/CreatureSlot.tscn" id="3_slot"]
+
+[sub_resource type="Curve2D" id="Curve2D_route"]
+bake_interval = 2.0
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 55, 165, 0, 0, 0, 0, 485, 165, 0, 0, 0, 0, 485, 350, 0, 0, 0, 0, 55, 350, 0, 0, 0, 0, 55, 540, 0, 0, 0, 0, 485, 540, 0, 0, 0, 0, 485, 730, 0, 0, 0, 0, 55, 730, 0, 0, 0, 0, 55, 845, 0, 0, 0, 0, 270, 845)
+}
+point_count = 10
+
+[node name="Main" type="Node2D" unique_id=915361146]
+script = ExtResource("1_main")
+
+[node name="Background" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(0, 0, 540, 0, 540, 960, 0, 960)
+color = Color(0.58, 0.73, 0.49, 1)
+
+[node name="Header" type="Label" parent="."]
+offset_left = 28.0
+offset_top = 26.0
+offset_right = 512.0
+offset_bottom = 71.0
+theme_override_colors/font_color = Color(0.16, 0.27, 0.2, 1)
+theme_override_font_sizes/font_size = 34
+text = "SUMMONERGUI"
+horizontal_alignment = 1
+
+[node name="Subtitle" type="Label" parent="."]
+offset_left = 28.0
+offset_top = 76.0
+offset_right = 512.0
+offset_bottom = 103.0
+theme_override_colors/font_color = Color(0.22, 0.36, 0.24, 1)
+theme_override_font_sizes/font_size = 18
+text = "Primeiro percurso · 9 posições para criaturas"
+horizontal_alignment = 1
+
+[node name="PathBorder" type="Line2D" parent="."]
+points = PackedVector2Array(55, 165, 485, 165, 485, 350, 55, 350, 55, 540, 485, 540, 485, 730, 55, 730, 55, 845, 270, 845)
+width = 54.0
+default_color = Color(0.44, 0.47, 0.31, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="PathSurface" type="Line2D" parent="."]
+points = PackedVector2Array(55, 165, 485, 165, 485, 350, 55, 350, 55, 540, 485, 540, 485, 730, 55, 730, 55, 845, 270, 845)
+width = 44.0
+default_color = Color(0.88, 0.77, 0.53, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+antialiased = true
+
+[node name="EntryLabel" type="Label" parent="."]
+offset_left = 28.0
+offset_top = 120.0
+offset_right = 140.0
+offset_bottom = 145.0
+theme_override_colors/font_color = Color(0.22, 0.36, 0.24, 1)
+theme_override_font_sizes/font_size = 16
+text = "ENTRADA →"
+
+[node name="Slots" type="Node2D" parent="."]
+
+[node name="Slot1" parent="Slots" instance=ExtResource("3_slot")]
+position = Vector2(150, 255)
+
+[node name="Slot2" parent="Slots" instance=ExtResource("3_slot")]
+position = Vector2(270, 255)
+
+[node name="Slot3" parent="Slots" instance=ExtResource("3_slot")]
+position = Vector2(390, 255)
+
+[node name="Slot4" parent="Slots" instance=ExtResource("3_slot")]
+position = Vector2(150, 445)
+
+[node name="Slot5" parent="Slots" instance=ExtResource("3_slot")]
+position = Vector2(270, 445)
+
+[node name="Slot6" parent="Slots" instance=ExtResource("3_slot")]
+position = Vector2(390, 445)
+
+[node name="Slot7" parent="Slots" instance=ExtResource("3_slot")]
+position = Vector2(150, 635)
+
+[node name="Slot8" parent="Slots" instance=ExtResource("3_slot")]
+position = Vector2(270, 635)
+
+[node name="Slot9" parent="Slots" instance=ExtResource("3_slot")]
+position = Vector2(390, 635)
+
+[node name="Chest" type="Node2D" parent="."]
+position = Vector2(270, 845)
+
+[node name="Outline" type="Polygon2D" parent="Chest"]
+polygon = PackedVector2Array(-40, -23, -30, -38, 30, -38, 40, -23, 40, 29, -40, 29)
+color = Color(0.29, 0.22, 0.18, 1)
+
+[node name="Wood" type="Polygon2D" parent="Chest"]
+polygon = PackedVector2Array(-35, -21, -27, -33, 27, -33, 35, -21, 35, 24, -35, 24)
+color = Color(0.59, 0.34, 0.19, 1)
+
+[node name="Lid" type="Polygon2D" parent="Chest"]
+polygon = PackedVector2Array(-35, -21, -27, -33, 27, -33, 35, -21, 35, -7, -35, -7)
+color = Color(0.76, 0.48, 0.25, 1)
+
+[node name="LeftBand" type="Polygon2D" parent="Chest"]
+polygon = PackedVector2Array(-27, -33, -20, -33, -20, 24, -27, 24)
+color = Color(0.96, 0.76, 0.34, 1)
+
+[node name="RightBand" type="Polygon2D" parent="Chest"]
+polygon = PackedVector2Array(20, -33, 27, -33, 27, 24, 20, 24)
+color = Color(0.96, 0.76, 0.34, 1)
+
+[node name="Seam" type="Line2D" parent="Chest"]
+points = PackedVector2Array(-35, -5, 35, -5)
+width = 3.0
+default_color = Color(0.29, 0.22, 0.18, 1)
+
+[node name="Lock" type="Polygon2D" parent="Chest"]
+polygon = PackedVector2Array(-7, -10, 7, -10, 7, 7, -7, 7)
+color = Color(1, 0.83, 0.4, 1)
+
+[node name="Keyhole" type="Line2D" parent="Chest"]
+points = PackedVector2Array(0, -5, 0, 2)
+width = 3.0
+default_color = Color(0.29, 0.22, 0.18, 1)
+
+[node name="EnemyPath" type="Path2D" parent="."]
+curve = SubResource("Curve2D_route")
+
+[node name="Enemy" parent="EnemyPath" instance=ExtResource("2_enemy")]
+
+[node name="Status" type="Label" parent="."]
+offset_left = 20.0
+offset_top = 897.0
+offset_right = 520.0
+offset_bottom = 935.0
+theme_override_colors/font_color = Color(0.16, 0.27, 0.2, 1)
+theme_override_font_sizes/font_size = 22
+text = "Um inimigo a caminho do baú…"
+horizontal_alignment = 1
