@@ -1,0 +1,162 @@
+[gd_resource type="SpriteFrames" load_steps=26 format=3]
+[ext_resource type="Texture2D" path="res://Assets/Art/Source/charmander-evolucoes.png" id="1_sheet"]
+
+[sub_resource type="AtlasTexture" id="r0c0"]
+atlas = ExtResource("1_sheet")
+region = Rect2(25, 82, 161, 184)
+margin = Rect2(105, 154, 223, 200)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r0c1"]
+atlas = ExtResource("1_sheet")
+region = Rect2(240, 82, 167, 184)
+margin = Rect2(99, 154, 217, 200)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r0c2"]
+atlas = ExtResource("1_sheet")
+region = Rect2(467, 81, 166, 186)
+margin = Rect2(104, 153, 218, 198)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r0c3"]
+atlas = ExtResource("1_sheet")
+region = Rect2(708, 86, 155, 181)
+margin = Rect2(120, 158, 229, 203)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r0c4"]
+atlas = ExtResource("1_sheet")
+region = Rect2(898, 89, 176, 178)
+margin = Rect2(113, 161, 208, 206)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r0c5"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1123, 84, 214, 179)
+margin = Rect2(117, 159, 170, 205)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r0c6"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1356, 80, 160, 187)
+margin = Rect2(111, 152, 224, 197)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r0c7"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1554, 88, 209, 182)
+margin = Rect2(115, 157, 175, 202)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r1c0"]
+atlas = ExtResource("1_sheet")
+region = Rect2(25, 312, 177, 228)
+margin = Rect2(103, 111, 207, 156)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r1c1"]
+atlas = ExtResource("1_sheet")
+region = Rect2(242, 312, 181, 228)
+margin = Rect2(101, 110, 203, 156)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r1c2"]
+atlas = ExtResource("1_sheet")
+region = Rect2(484, 312, 171, 229)
+margin = Rect2(107, 110, 213, 155)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r1c3"]
+atlas = ExtResource("1_sheet")
+region = Rect2(695, 312, 163, 228)
+margin = Rect2(109, 110, 221, 156)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r1c4"]
+atlas = ExtResource("1_sheet")
+region = Rect2(899, 318, 178, 224)
+margin = Rect2(111, 115, 206, 160)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r1c5"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1119, 322, 223, 220)
+margin = Rect2(114, 119, 161, 164)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r1c6"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1366, 317, 166, 228)
+margin = Rect2(118, 111, 218, 156)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r1c7"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1565, 318, 208, 227)
+margin = Rect2(118, 112, 176, 157)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r2c0"]
+atlas = ExtResource("1_sheet")
+region = Rect2(8, 572, 224, 255)
+margin = Rect2(92, 83, 160, 129)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r2c1"]
+atlas = ExtResource("1_sheet")
+region = Rect2(233, 572, 219, 255)
+margin = Rect2(98, 83, 165, 129)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r2c2"]
+atlas = ExtResource("1_sheet")
+region = Rect2(452, 571, 222, 256)
+margin = Rect2(82, 82, 162, 128)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r2c3"]
+atlas = ExtResource("1_sheet")
+region = Rect2(674, 573, 219, 254)
+margin = Rect2(77, 84, 165, 130)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r2c4"]
+atlas = ExtResource("1_sheet")
+region = Rect2(893, 565, 215, 262)
+margin = Rect2(98, 76, 169, 122)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r2c5"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1112, 570, 232, 258)
+margin = Rect2(105, 81, 152, 126)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r2c6"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1344, 568, 213, 260)
+margin = Rect2(86, 79, 171, 124)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r2c7"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1557, 568, 213, 260)
+margin = Rect2(107, 79, 171, 124)
+filter_clip = true
+
+[resource]
+animations = [
+{"frames": [{"duration": 1.0, "texture": SubResource("r0c0")}, {"duration": 1.0, "texture": SubResource("r0c1")}], "loop": true, "name": &"idle_0", "speed": 2.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("r0c4")}, {"duration": 1.0, "texture": SubResource("r0c5")}], "loop": false, "name": &"attack_0", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("r0c2")}, {"duration": 1.0, "texture": SubResource("r0c3")}], "loop": false, "name": &"orientation_0", "speed": 2.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("r0c6")}, {"duration": 1.0, "texture": SubResource("r0c7")}], "loop": false, "name": &"attack_alt_0", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("r1c0")}, {"duration": 1.0, "texture": SubResource("r1c1")}], "loop": true, "name": &"idle_1", "speed": 2.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("r1c4")}, {"duration": 1.0, "texture": SubResource("r1c5")}], "loop": false, "name": &"attack_1", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("r1c2")}, {"duration": 1.0, "texture": SubResource("r1c3")}], "loop": false, "name": &"orientation_1", "speed": 2.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("r1c6")}, {"duration": 1.0, "texture": SubResource("r1c7")}], "loop": false, "name": &"attack_alt_1", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("r2c0")}, {"duration": 1.0, "texture": SubResource("r2c1")}], "loop": true, "name": &"idle_2", "speed": 2.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("r2c4")}, {"duration": 1.0, "texture": SubResource("r2c5")}], "loop": false, "name": &"attack_2", "speed": 8.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("r2c2")}, {"duration": 1.0, "texture": SubResource("r2c3")}], "loop": false, "name": &"orientation_2", "speed": 2.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("r2c6")}, {"duration": 1.0, "texture": SubResource("r2c7")}], "loop": false, "name": &"attack_alt_2", "speed": 8.0}
+]

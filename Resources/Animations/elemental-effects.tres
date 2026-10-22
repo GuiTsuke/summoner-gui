@@ -1,0 +1,106 @@
+[gd_resource type="SpriteFrames" load_steps=18 format=3]
+[ext_resource type="Texture2D" path="res://Assets/Art/Effects/efeitos-elementais.png" id="1_sheet"]
+
+[sub_resource type="AtlasTexture" id="r0c0"]
+atlas = ExtResource("1_sheet")
+region = Rect2(66, 76, 211, 110)
+margin = Rect2(273, 70, 301, 146)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r0c1"]
+atlas = ExtResource("1_sheet")
+region = Rect2(428, 76, 271, 116)
+margin = Rect2(217, 70, 241, 140)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r0c2"]
+atlas = ExtResource("1_sheet")
+region = Rect2(790, 76, 321, 116)
+margin = Rect2(157, 70, 191, 140)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r0c3"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1234, 87, 245, 96)
+margin = Rect2(243, 81, 267, 160)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r1c0"]
+atlas = ExtResource("1_sheet")
+region = Rect2(41, 320, 181, 140)
+margin = Rect2(54, 64, 331, 116)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r1c1"]
+atlas = ExtResource("1_sheet")
+region = Rect2(386, 296, 293, 172)
+margin = Rect2(48, 29, 219, 84)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r1c2"]
+atlas = ExtResource("1_sheet")
+region = Rect2(787, 276, 375, 209)
+margin = Rect2(51, 9, 137, 47)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r1c3"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1235, 311, 243, 151)
+margin = Rect2(52, 49, 269, 105)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r2c0"]
+atlas = ExtResource("1_sheet")
+region = Rect2(43, 584, 214, 138)
+margin = Rect2(41, 64, 298, 118)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r2c1"]
+atlas = ExtResource("1_sheet")
+region = Rect2(363, 573, 343, 149)
+margin = Rect2(36, 53, 169, 107)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r2c2"]
+atlas = ExtResource("1_sheet")
+region = Rect2(778, 565, 416, 157)
+margin = Rect2(37, 45, 96, 99)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r2c3"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1237, 589, 267, 115)
+margin = Rect2(42, 69, 245, 141)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r3c0"]
+atlas = ExtResource("1_sheet")
+region = Rect2(105, 815, 118, 176)
+margin = Rect2(193, 52, 394, 80)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r3c1"]
+atlas = ExtResource("1_sheet")
+region = Rect2(485, 807, 140, 184)
+margin = Rect2(186, 44, 372, 72)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r3c2"]
+atlas = ExtResource("1_sheet")
+region = Rect2(898, 781, 130, 210)
+margin = Rect2(196, 18, 382, 46)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r3c3"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1297, 813, 140, 180)
+margin = Rect2(193, 50, 372, 76)
+filter_clip = true
+
+[resource]
+animations = [
+{"frames": [{"duration": 1.0, "texture": SubResource("r0c0")}, {"duration": 1.0, "texture": SubResource("r0c1")}, {"duration": 1.0, "texture": SubResource("r0c2")}, {"duration": 1.0, "texture": SubResource("r0c3")}], "loop": true, "name": &"fireball", "speed": 12.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("r1c0")}, {"duration": 1.0, "texture": SubResource("r1c1")}, {"duration": 1.0, "texture": SubResource("r1c2")}, {"duration": 1.0, "texture": SubResource("r1c3")}], "loop": false, "name": &"vine_whips", "speed": 12.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("r2c0")}, {"duration": 1.0, "texture": SubResource("r2c1")}, {"duration": 1.0, "texture": SubResource("r2c2")}, {"duration": 1.0, "texture": SubResource("r2c3")}], "loop": true, "name": &"water_jet", "speed": 12.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("r3c0")}, {"duration": 1.0, "texture": SubResource("r3c1")}, {"duration": 1.0, "texture": SubResource("r3c2")}, {"duration": 1.0, "texture": SubResource("r3c3")}], "loop": true, "name": &"burn", "speed": 8.0}
+]

@@ -1,13 +1,35 @@
-[gd_scene load_steps=5 format=3 uid="uid://xadwmv0dhdwb"]
+[gd_scene load_steps=26 format=3 uid="uid://xadwmv0dhdwb"]
 
 [ext_resource type="Script" path="res://Scripts/Main.cs" id="1_main"]
 [ext_resource type="PackedScene" path="res://Scenes/Enemy.tscn" id="2_enemy"]
 [ext_resource type="PackedScene" path="res://Scenes/CreatureSlot.tscn" id="3_slot"]
+[ext_resource type="PackedScene" path="res://Scenes/Creature.tscn" id="4_creature"]
+[ext_resource type="Script" path="res://Scripts/GameSession.cs" id="5_session"]
+[ext_resource type="Script" path="res://Scripts/WaveDirector.cs" id="6_director"]
+[ext_resource type="Script" path="res://Scripts/WaveDefinition.cs" id="7_wave"]
+[ext_resource type="Theme" path="res://Resources/MatchTheme.tres" id="8_theme"]
+
+[ext_resource type="Resource" path="res://Resources/Waves/wave01.tres" id="w1"]
+[ext_resource type="Resource" path="res://Resources/Waves/wave02.tres" id="w2"]
+[ext_resource type="Resource" path="res://Resources/Waves/wave03.tres" id="w3"]
+[ext_resource type="Resource" path="res://Resources/Waves/wave04.tres" id="w4"]
+[ext_resource type="Resource" path="res://Resources/Waves/wave05.tres" id="w5"]
+[ext_resource type="Resource" path="res://Resources/Waves/wave06.tres" id="w6"]
+[ext_resource type="Resource" path="res://Resources/Waves/wave07.tres" id="w7"]
+[ext_resource type="Resource" path="res://Resources/Waves/wave08.tres" id="w8"]
+[ext_resource type="Resource" path="res://Resources/Waves/wave09.tres" id="w9"]
+[ext_resource type="Resource" path="res://Resources/Waves/wave10.tres" id="w10"]
+[ext_resource type="Resource" path="res://Resources/Pokemon/bulbasaur.tres" id="p0"]
+[ext_resource type="Resource" path="res://Resources/Pokemon/charmander.tres" id="p1"]
+[ext_resource type="Resource" path="res://Resources/Pokemon/squirtle.tres" id="p2"]
+[ext_resource type="Script" path="res://Scripts/PokemonDefinition.cs" id="pokemon_type"]
+[ext_resource type="Texture2D" path="res://Assets/Art/Environment/terreno-limpo.png" id="terrain"]
+[ext_resource type="Texture2D" path="res://Resources/Environment/chest.tres" id="chest"]
 
 [sub_resource type="Curve2D" id="Curve2D_route"]
 bake_interval = 2.0
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, 55, 165, 0, 0, 0, 0, 485, 165, 0, 0, 0, 0, 485, 350, 0, 0, 0, 0, 55, 350, 0, 0, 0, 0, 55, 540, 0, 0, 0, 0, 485, 540, 0, 0, 0, 0, 485, 730, 0, 0, 0, 0, 55, 730, 0, 0, 0, 0, 55, 845, 0, 0, 0, 0, 270, 845)
+"points": PackedVector2Array(0, 0, 0, 0, 55, 176, 0, 0, 0, 0, 485, 176, 0, 0, 0, 0, 485, 304, 0, 0, 0, 0, 55, 304, 0, 0, 0, 0, 55, 432, 0, 0, 0, 0, 485, 432, 0, 0, 0, 0, 485, 560, 0, 0, 0, 0, 55, 560, 0, 0, 0, 0, 55, 632, 0, 0, 0, 0, 270, 632)
 }
 point_count = 10
 
@@ -16,51 +38,38 @@ script = ExtResource("1_main")
 
 [node name="Background" type="Polygon2D" parent="."]
 polygon = PackedVector2Array(0, 0, 540, 0, 540, 960, 0, 960)
-color = Color(0.58, 0.73, 0.49, 1)
+color = Color(0.37, 0.62, 0.22, 1)
 
-[node name="Header" type="Label" parent="."]
-offset_left = 28.0
-offset_top = 26.0
-offset_right = 512.0
-offset_bottom = 71.0
-theme_override_colors/font_color = Color(0.16, 0.27, 0.2, 1)
-theme_override_font_sizes/font_size = 34
-text = "SUMMONERGUI"
-horizontal_alignment = 1
-
-[node name="Subtitle" type="Label" parent="."]
-offset_left = 28.0
-offset_top = 76.0
-offset_right = 512.0
-offset_bottom = 103.0
-theme_override_colors/font_color = Color(0.22, 0.36, 0.24, 1)
-theme_override_font_sizes/font_size = 18
-text = "Primeiro percurso · 9 posições para criaturas"
-horizontal_alignment = 1
+[node name="Terrain" type="Sprite2D" parent="."]
+position = Vector2(270, 397)
+scale = Vector2(0.52734375, 0.52734375)
+texture = ExtResource("terrain")
+region_enabled = true
+region_rect = Rect2(0, 220, 1024, 1040)
 
 [node name="PathBorder" type="Line2D" parent="."]
-points = PackedVector2Array(55, 165, 485, 165, 485, 350, 55, 350, 55, 540, 485, 540, 485, 730, 55, 730, 55, 845, 270, 845)
-width = 54.0
-default_color = Color(0.44, 0.47, 0.31, 1)
+points = PackedVector2Array(55, 176, 485, 176, 485, 304, 55, 304, 55, 432, 485, 432, 485, 560, 55, 560, 55, 632, 270, 632)
+width = 50.0
+default_color = Color(0.63, 0.37, 0.12, 0.8)
 joint_mode = 2
 begin_cap_mode = 2
 end_cap_mode = 2
 antialiased = true
 
 [node name="PathSurface" type="Line2D" parent="."]
-points = PackedVector2Array(55, 165, 485, 165, 485, 350, 55, 350, 55, 540, 485, 540, 485, 730, 55, 730, 55, 845, 270, 845)
+points = PackedVector2Array(55, 176, 485, 176, 485, 304, 55, 304, 55, 432, 485, 432, 485, 560, 55, 560, 55, 632, 270, 632)
 width = 44.0
-default_color = Color(0.88, 0.77, 0.53, 1)
+default_color = Color(0.96, 0.68, 0.31, 0.84)
 joint_mode = 2
 begin_cap_mode = 2
 end_cap_mode = 2
 antialiased = true
 
 [node name="EntryLabel" type="Label" parent="."]
-offset_left = 28.0
-offset_top = 120.0
-offset_right = 140.0
-offset_bottom = 145.0
+offset_left = 90.0
+offset_top = 162.0
+offset_right = 202.0
+offset_bottom = 186.0
 theme_override_colors/font_color = Color(0.22, 0.36, 0.24, 1)
 theme_override_font_sizes/font_size = 16
 text = "ENTRADA →"
@@ -68,80 +77,209 @@ text = "ENTRADA →"
 [node name="Slots" type="Node2D" parent="."]
 
 [node name="Slot1" parent="Slots" instance=ExtResource("3_slot")]
-position = Vector2(150, 255)
+position = Vector2(150, 240)
 
 [node name="Slot2" parent="Slots" instance=ExtResource("3_slot")]
-position = Vector2(270, 255)
+position = Vector2(270, 240)
 
 [node name="Slot3" parent="Slots" instance=ExtResource("3_slot")]
-position = Vector2(390, 255)
+position = Vector2(390, 240)
 
 [node name="Slot4" parent="Slots" instance=ExtResource("3_slot")]
-position = Vector2(150, 445)
+position = Vector2(150, 368)
 
 [node name="Slot5" parent="Slots" instance=ExtResource("3_slot")]
-position = Vector2(270, 445)
+position = Vector2(270, 368)
 
 [node name="Slot6" parent="Slots" instance=ExtResource("3_slot")]
-position = Vector2(390, 445)
+position = Vector2(390, 368)
 
 [node name="Slot7" parent="Slots" instance=ExtResource("3_slot")]
-position = Vector2(150, 635)
+position = Vector2(150, 496)
 
 [node name="Slot8" parent="Slots" instance=ExtResource("3_slot")]
-position = Vector2(270, 635)
+position = Vector2(270, 496)
 
 [node name="Slot9" parent="Slots" instance=ExtResource("3_slot")]
-position = Vector2(390, 635)
+position = Vector2(390, 496)
 
 [node name="Chest" type="Node2D" parent="."]
-position = Vector2(270, 845)
+position = Vector2(270, 632)
 
-[node name="Outline" type="Polygon2D" parent="Chest"]
-polygon = PackedVector2Array(-40, -23, -30, -38, 30, -38, 40, -23, 40, 29, -40, 29)
-color = Color(0.29, 0.22, 0.18, 1)
-
-[node name="Wood" type="Polygon2D" parent="Chest"]
-polygon = PackedVector2Array(-35, -21, -27, -33, 27, -33, 35, -21, 35, 24, -35, 24)
-color = Color(0.59, 0.34, 0.19, 1)
-
-[node name="Lid" type="Polygon2D" parent="Chest"]
-polygon = PackedVector2Array(-35, -21, -27, -33, 27, -33, 35, -21, 35, -7, -35, -7)
-color = Color(0.76, 0.48, 0.25, 1)
-
-[node name="LeftBand" type="Polygon2D" parent="Chest"]
-polygon = PackedVector2Array(-27, -33, -20, -33, -20, 24, -27, 24)
-color = Color(0.96, 0.76, 0.34, 1)
-
-[node name="RightBand" type="Polygon2D" parent="Chest"]
-polygon = PackedVector2Array(20, -33, 27, -33, 27, 24, 20, 24)
-color = Color(0.96, 0.76, 0.34, 1)
-
-[node name="Seam" type="Line2D" parent="Chest"]
-points = PackedVector2Array(-35, -5, 35, -5)
-width = 3.0
-default_color = Color(0.29, 0.22, 0.18, 1)
-
-[node name="Lock" type="Polygon2D" parent="Chest"]
-polygon = PackedVector2Array(-7, -10, 7, -10, 7, 7, -7, 7)
-color = Color(1, 0.83, 0.4, 1)
-
-[node name="Keyhole" type="Line2D" parent="Chest"]
-points = PackedVector2Array(0, -5, 0, 2)
-width = 3.0
-default_color = Color(0.29, 0.22, 0.18, 1)
+[node name="Visual" type="Sprite2D" parent="Chest"]
+position = Vector2(0, -3)
+scale = Vector2(0.27, 0.27)
+texture_filter = 1
+texture = ExtResource("chest")
 
 [node name="EnemyPath" type="Path2D" parent="."]
 curve = SubResource("Curve2D_route")
 
-[node name="Enemy" parent="EnemyPath" instance=ExtResource("2_enemy")]
+[node name="WaveDirector" type="Node" parent="." node_paths=PackedStringArray("EnemyPath")]
+script = ExtResource("6_director")
+EnemyScene = ExtResource("2_enemy")
+EnemyPath = NodePath("../EnemyPath")
+Waves = Array[ExtResource("7_wave")]([ExtResource("w1"), ExtResource("w2"), ExtResource("w3"), ExtResource("w4"), ExtResource("w5"), ExtResource("w6"), ExtResource("w7"), ExtResource("w8"), ExtResource("w9"), ExtResource("w10")])
 
-[node name="Status" type="Label" parent="."]
-offset_left = 20.0
-offset_top = 897.0
-offset_right = 520.0
-offset_bottom = 935.0
-theme_override_colors/font_color = Color(0.16, 0.27, 0.2, 1)
+[node name="GameSession" type="Node" parent="." node_paths=PackedStringArray("Director", "SlotsRoot")]
+script = ExtResource("5_session")
+Director = NodePath("../WaveDirector")
+SlotsRoot = NodePath("../Slots")
+CreatureScene = ExtResource("4_creature")
+Pokemon = Array[ExtResource("pokemon_type")]([ExtResource("p0"), ExtResource("p1"), ExtResource("p2")])
+StartingCoins = 150
+StartingLives = 5
+SummonCost = 50
+UpgradeBaseCost = 25
+MaxLevel = 10
+
+
+[node name="HUD" type="CanvasLayer" parent="."]
+[node name="Interface" type="Control" parent="HUD"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme = ExtResource("8_theme")
+[node name="Top" type="PanelContainer" parent="HUD/Interface"]
+offset_left = 12.0
+offset_top = 8.0
+offset_right = 528.0
+offset_bottom = 114.0
+[node name="Rows" type="VBoxContainer" parent="HUD/Interface/Top"]
+layout_mode = 2
+theme_override_constants/separation = 2
+[node name="Title" type="Label" parent="HUD/Interface/Top/Rows"]
+layout_mode = 2
 theme_override_font_sizes/font_size = 22
-text = "Um inimigo a caminho do baú…"
+text = "SUMMONERGUI"
 horizontal_alignment = 1
+[node name="Stats" type="Label" parent="HUD/Interface/Top/Rows"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 17
+text = "Moedas: 150     Vidas do baú: 5"
+horizontal_alignment = 1
+[node name="Wave" type="Label" parent="HUD/Interface/Top/Rows"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 15
+text = "Onda 0 / 10   •   Inimigos pendentes: 0"
+horizontal_alignment = 1
+[node name="Boss" type="HBoxContainer" parent="HUD/Interface/Top/Rows"]
+visible = false
+layout_mode = 2
+[node name="Name" type="Label" parent="HUD/Interface/Top/Rows/Boss"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "REI OGRO"
+[node name="Health" type="ProgressBar" parent="HUD/Interface/Top/Rows/Boss"]
+custom_minimum_size = Vector2(250, 16)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+show_percentage = false
+[node name="Bottom" type="PanelContainer" parent="HUD/Interface"]
+offset_left = 12.0
+offset_top = 684.0
+offset_right = 528.0
+offset_bottom = 948.0
+[node name="Rows" type="VBoxContainer" parent="HUD/Interface/Bottom"]
+layout_mode = 2
+theme_override_constants/separation = 4
+[node name="Portraits" type="HBoxContainer" parent="HUD/Interface/Bottom/Rows"]
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="Summon0" type="Button" parent="HUD/Interface/Bottom/Rows/Portraits"]
+custom_minimum_size = Vector2(0, 52)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 13
+theme_override_constants/icon_max_width = 36
+expand_icon = true
+text = "Bulbasaur\n50 moedas"
+disabled = true
+
+[node name="Summon1" type="Button" parent="HUD/Interface/Bottom/Rows/Portraits"]
+custom_minimum_size = Vector2(0, 52)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 13
+theme_override_constants/icon_max_width = 36
+expand_icon = true
+text = "Charmander\n50 moedas"
+disabled = true
+
+[node name="Summon2" type="Button" parent="HUD/Interface/Bottom/Rows/Portraits"]
+custom_minimum_size = Vector2(0, 52)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 13
+theme_override_constants/icon_max_width = 36
+expand_icon = true
+text = "Squirtle\n50 moedas"
+disabled = true
+
+[node name="Details" type="Label" parent="HUD/Interface/Bottom/Rows"]
+custom_minimum_size = Vector2(0, 64)
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "Selecione uma base para invocar.\nCada linhagem pode ser invocada uma única vez."
+vertical_alignment = 1
+autowrap_mode = 2
+[node name="Evolve" type="Button" parent="HUD/Interface/Bottom/Rows"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "Selecione um Pokémon para evoluir"
+
+[node name="Actions" type="HBoxContainer" parent="HUD/Interface/Bottom/Rows"]
+layout_mode = 2
+theme_override_constants/separation = 5
+[node name="SelectionAction" type="Button" parent="HUD/Interface/Bottom/Rows/Actions"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 14
+text = "Melhorar"
+disabled = true
+[node name="StartWave" type="Button" parent="HUD/Interface/Bottom/Rows/Actions"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 14
+text = "Iniciar onda"
+[node name="Move" type="Button" parent="HUD/Interface/Bottom/Rows/Actions"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 14
+text = "Reposicionar"
+[node name="Notice" type="Label" parent="HUD/Interface/Bottom/Rows"]
+custom_minimum_size = Vector2(0, 24)
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "Selecione uma base e invoque seu Pokémon."
+autowrap_mode = 2
+[node name="Result" type="ColorRect" parent="HUD/Interface"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.03, 0.1, 0.07, 0.75)
+[node name="Panel" type="PanelContainer" parent="HUD/Interface/Result"]
+offset_left = 45.0
+offset_top = 330.0
+offset_right = 495.0
+offset_bottom = 570.0
+[node name="Rows" type="VBoxContainer" parent="HUD/Interface/Result/Panel"]
+layout_mode = 2
+theme_override_constants/separation = 26
+alignment = 1
+[node name="ResultText" type="Label" parent="HUD/Interface/Result/Panel/Rows"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Vitória!\nO baú está protegido."
+horizontal_alignment = 1
+[node name="Restart" type="Button" parent="HUD/Interface/Result/Panel/Rows"]
+layout_mode = 2
+text = "Jogar novamente"

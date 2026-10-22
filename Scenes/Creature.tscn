@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="Script" path="res://Scripts/Creature.cs" id="1_creature"]
+[ext_resource type="Resource" path="res://Resources/Pokemon/bulbasaur.tres" id="2_def"]
+[ext_resource type="Script" path="res://Scripts/CharacterVisual.cs" id="3_visual"]
+[ext_resource type="SpriteFrames" path="res://Resources/Animations/bulbasaur-evolucoes.tres" id="4_frames"]
+[node name="Creature" type="Node2D"]
+script = ExtResource("1_creature")
+Definition = ExtResource("2_def")
+[node name="Visual" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, 16)
+scale = Vector2(0.24, 0.24)
+sprite_frames = ExtResource("4_frames")
+animation = &"idle_0"
+offset = Vector2(0, -144)
+script = ExtResource("3_visual")
+[node name="LevelLabel" type="Label" parent="."]
+offset_left = -26.0
+offset_top = 19.0
+offset_right = 26.0
+offset_bottom = 35.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.12, 0.22, 0.16, 1)
+theme_override_font_sizes/font_size = 12
+text = "Nv. 1"
+horizontal_alignment = 1

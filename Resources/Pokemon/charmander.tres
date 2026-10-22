@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="PokemonDefinition" load_steps=4 format=3]
+[ext_resource type="Script" path="res://Scripts/PokemonDefinition.cs" id="1_def"]
+[ext_resource type="SpriteFrames" path="res://Resources/Animations/charmander-evolucoes.tres" id="2_frames"]
+[ext_resource type="Resource" path="res://Resources/Attacks/charmander.tres" id="3_attack"]
+[resource]
+script = ExtResource("1_def")
+Lineage = "charmander"
+FormNames = PackedStringArray("Charmander", "Charmeleon", "Charizard")
+EvolutionLevels = PackedInt32Array(1, 4, 7)
+FormMultipliers = PackedFloat32Array(1, 2, 3.5)
+BaseDamage = 10.0
+LevelDamageGrowth = 0.2
+Range = 120.0
+AttackInterval = 0.65
+Frames = ExtResource("2_frames")
+VisualScale = 0.24
+EvolutionCosts = PackedInt32Array(0, 150, 400)
+Attack = ExtResource("3_attack")

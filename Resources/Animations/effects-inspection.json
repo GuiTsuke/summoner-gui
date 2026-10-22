@@ -1,0 +1,309 @@
+﻿{
+    "Source":  "Assets/Art/Effects/efeitos-elementais.png",
+    "SHA256":  "A74C2D823F80AAC817E61931184DF9A5A52C55C3A178F498EA3E47733A983F4E",
+    "Width":  1536,
+    "Height":  1024,
+    "CornerAlpha":  0,
+    "Canvas":  [
+                   512,
+                   256
+               ],
+    "AlphaThreshold":  32,
+    "BoundarySearchPixels":  64,
+    "SpriteOffsetFormula":  "Canvas / 2 - CanvasAnchor. Apply before scale; negate X for FlipH.",
+    "Notes":  [
+                  "Regions bound alpha above 32; faint alpha fringes may extend beyond these bounds. RGB in fully transparent pixels is ignored.",
+                  "Water has its wide impact on the LEFT; flip horizontally to aim right.",
+                  "Vine sprites already contain a pair of branches, not a single straight beam.",
+                  "Four authored phases per row only; no inferred frames.",
+                  "Atlas does not provide collision or damage rules."
+              ],
+    "Animations":  [
+                       {
+                           "Name":  "fireball",
+                           "CanvasAnchor":  [
+                                                448,
+                                                128
+                                            ],
+                           "NativeDirection":  "right",
+                           "FlipHToAimRight":  false,
+                           "SuggestedUniformScale":  0.14,
+                           "AnchorRole":  "projectile_head"
+                       },
+                       {
+                           "Name":  "vine_whips",
+                           "CanvasAnchor":  [
+                                                64,
+                                                144
+                                            ],
+                           "NativeDirection":  "right",
+                           "FlipHToAimRight":  false,
+                           "SuggestedUniformScale":  0.2,
+                           "AnchorRole":  "paired_vine_roots"
+                       },
+                       {
+                           "Name":  "water_jet",
+                           "CanvasAnchor":  [
+                                                64,
+                                                128
+                                            ],
+                           "NativeDirection":  "left",
+                           "FlipHToAimRight":  true,
+                           "SuggestedUniformScale":  0.2,
+                           "AnchorRole":  "jet_impact"
+                       },
+                       {
+                           "Name":  "burn",
+                           "CanvasAnchor":  [
+                                                256,
+                                                224
+                                            ],
+                           "NativeDirection":  "up",
+                           "FlipHToAimRight":  false,
+                           "SuggestedUniformScale":  0.12,
+                           "AnchorRole":  "flame_base"
+                       }
+                   ],
+    "Frames":  [
+                   {
+                       "Animation":  "fireball",
+                       "Frame":  0,
+                       "Region":  [
+                                      66,
+                                      76,
+                                      211,
+                                      110
+                                  ],
+                       "SheetAnchor":  [
+                                           241,
+                                           134
+                                       ],
+                       "BoundaryPixels":  0
+                   },
+                   {
+                       "Animation":  "fireball",
+                       "Frame":  1,
+                       "Region":  [
+                                      428,
+                                      76,
+                                      271,
+                                      116
+                                  ],
+                       "SheetAnchor":  [
+                                           659,
+                                           134
+                                       ],
+                       "BoundaryPixels":  0
+                   },
+                   {
+                       "Animation":  "fireball",
+                       "Frame":  2,
+                       "Region":  [
+                                      790,
+                                      76,
+                                      321,
+                                      116
+                                  ],
+                       "SheetAnchor":  [
+                                           1081,
+                                           134
+                                       ],
+                       "BoundaryPixels":  0
+                   },
+                   {
+                       "Animation":  "fireball",
+                       "Frame":  3,
+                       "Region":  [
+                                      1234,
+                                      87,
+                                      245,
+                                      96
+                                  ],
+                       "SheetAnchor":  [
+                                           1439,
+                                           134
+                                       ],
+                       "BoundaryPixels":  0
+                   },
+                   {
+                       "Animation":  "vine_whips",
+                       "Frame":  0,
+                       "Region":  [
+                                      41,
+                                      320,
+                                      181,
+                                      140
+                                  ],
+                       "SheetAnchor":  [
+                                           51,
+                                           400
+                                       ],
+                       "BoundaryPixels":  0
+                   },
+                   {
+                       "Animation":  "vine_whips",
+                       "Frame":  1,
+                       "Region":  [
+                                      386,
+                                      296,
+                                      293,
+                                      172
+                                  ],
+                       "SheetAnchor":  [
+                                           402,
+                                           411
+                                       ],
+                       "BoundaryPixels":  0
+                   },
+                   {
+                       "Animation":  "vine_whips",
+                       "Frame":  2,
+                       "Region":  [
+                                      787,
+                                      276,
+                                      375,
+                                      209
+                                  ],
+                       "SheetAnchor":  [
+                                           800,
+                                           411
+                                       ],
+                       "BoundaryPixels":  0
+                   },
+                   {
+                       "Animation":  "vine_whips",
+                       "Frame":  3,
+                       "Region":  [
+                                      1235,
+                                      311,
+                                      243,
+                                      151
+                                  ],
+                       "SheetAnchor":  [
+                                           1247,
+                                           406
+                                       ],
+                       "BoundaryPixels":  0
+                   },
+                   {
+                       "Animation":  "water_jet",
+                       "Frame":  0,
+                       "Region":  [
+                                      43,
+                                      584,
+                                      214,
+                                      138
+                                  ],
+                       "SheetAnchor":  [
+                                           66,
+                                           648
+                                       ],
+                       "BoundaryPixels":  0
+                   },
+                   {
+                       "Animation":  "water_jet",
+                       "Frame":  1,
+                       "Region":  [
+                                      363,
+                                      573,
+                                      343,
+                                      149
+                                  ],
+                       "SheetAnchor":  [
+                                           391,
+                                           648
+                                       ],
+                       "BoundaryPixels":  0
+                   },
+                   {
+                       "Animation":  "water_jet",
+                       "Frame":  2,
+                       "Region":  [
+                                      778,
+                                      565,
+                                      416,
+                                      157
+                                  ],
+                       "SheetAnchor":  [
+                                           805,
+                                           648
+                                       ],
+                       "BoundaryPixels":  0
+                   },
+                   {
+                       "Animation":  "water_jet",
+                       "Frame":  3,
+                       "Region":  [
+                                      1237,
+                                      589,
+                                      267,
+                                      115
+                                  ],
+                       "SheetAnchor":  [
+                                           1259,
+                                           648
+                                       ],
+                       "BoundaryPixels":  0
+                   },
+                   {
+                       "Animation":  "burn",
+                       "Frame":  0,
+                       "Region":  [
+                                      105,
+                                      815,
+                                      118,
+                                      176
+                                  ],
+                       "SheetAnchor":  [
+                                           168,
+                                           987
+                                       ],
+                       "BoundaryPixels":  0
+                   },
+                   {
+                       "Animation":  "burn",
+                       "Frame":  1,
+                       "Region":  [
+                                      485,
+                                      807,
+                                      140,
+                                      184
+                                  ],
+                       "SheetAnchor":  [
+                                           555,
+                                           987
+                                       ],
+                       "BoundaryPixels":  0
+                   },
+                   {
+                       "Animation":  "burn",
+                       "Frame":  2,
+                       "Region":  [
+                                      898,
+                                      781,
+                                      130,
+                                      210
+                                  ],
+                       "SheetAnchor":  [
+                                           958,
+                                           987
+                                       ],
+                       "BoundaryPixels":  0
+                   },
+                   {
+                       "Animation":  "burn",
+                       "Frame":  3,
+                       "Region":  [
+                                      1297,
+                                      813,
+                                      140,
+                                      180
+                                  ],
+                       "SheetAnchor":  [
+                                           1360,
+                                           987
+                                       ],
+                       "BoundaryPixels":  0
+                   }
+               ]
+}

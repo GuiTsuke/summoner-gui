@@ -1,0 +1,13 @@
+[gd_scene format=3]
+[node name="MeadowFlower" type="Node2D"]
+[node name="Leaves" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(0, 5, -7, 1, -9, -5, -2, -2, 0, 1, 4, -5, 9, -7, 7, 0)
+color = Color(0.28, 0.46, 0.23, 1)
+[node name="Petals" type="Polygon2D" parent="."]
+position = Vector2(-2, -4)
+polygon = PackedVector2Array(-1, -4, 1, -4, 2, -2, 4, -1, 4, 1, 2, 2, 1, 4, -1, 4, -2, 2, -4, 1, -4, -1, -2, -2)
+color = Color(1, 0.96, 0.77, 1)
+[node name="Center" type="Polygon2D" parent="."]
+position = Vector2(-2, -4)
+polygon = PackedVector2Array(-1.5, -1.5, 1.5, -1.5, 1.5, 1.5, -1.5, 1.5)
+color = Color(0.97, 0.74, 0.2, 1)

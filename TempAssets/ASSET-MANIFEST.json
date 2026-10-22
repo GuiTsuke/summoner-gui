@@ -1,0 +1,38 @@
+[
+  {
+    "file": "Assets/Art/Effects/efeitos-elementais.png",
+    "status": "novo",
+    "columns": 4,
+    "rows": 4,
+    "row_order": [
+      "fireball",
+      "vine_whips",
+      "water_jet",
+      "burn"
+    ],
+    "note": "Conferir regioes reais, sentido e pivos antes de animar.",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "file": "Assets/Art/Preserved/bulbasaur-evolucoes.png",
+    "status": "anterior-preservado-padronizacao-pendente",
+    "columns": 8,
+    "rows": 3,
+    "note": "Nao e uma folha nova. As vistas e quadros planejados nao foram gerados."
+  },
+  {
+    "file": "Assets/Art/Preserved/charmander-evolucoes.png",
+    "status": "anterior-preservado-padronizacao-pendente",
+    "columns": 8,
+    "rows": 3,
+    "note": "Nao e uma folha nova. As vistas e quadros planejados nao foram gerados."
+  },
+  {
+    "file": "Assets/Art/Preserved/squirtle-evolucoes.png",
+    "status": "anterior-preservado-padronizacao-pendente",
+    "columns": 8,
+    "rows": 3,
+    "note": "Nao e uma folha nova. As vistas e quadros planejados nao foram gerados."
+  }
+]

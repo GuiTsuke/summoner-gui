@@ -1,0 +1,68 @@
+Integre os novos sprites e ataques elementais ao SummonerGui, preservando o jogo funcional. Leia os AGENTS.md aplicaveis e examine apenas os arquivos relevantes. Nao crie commits.
+
+ESCOPO
+Substituir o golpe generico de luz por fogo, cipos e agua; adicionar queimadura ao fogo; separar melhoria de nivel de evolucao paga. Nao alterar menus, cenario, audio ou rotas sem necessidade desta entrega.
+
+ASSETS E POSES
+- Consulte LEIA-ME.txt e ASSET-MANIFEST.json antes de substituir arquivos. Se alguma folha estiver marcada como pendente, preserve o asset funcional e informe a limitacao.
+- O gerador bloqueou a criacao das novas folhas de Pokemon. Este pacote preserva as folhas anteriores em Assets/Art/Preserved, com aproximadamente 8 colunas e 3 linhas de formas evolutivas. NAO assumir a grade 3x6 que havia sido planejada.
+- Nao substituir uma versao funcional por uma copia preservada sem necessidade. Inspecionar os assets ja ativos no projeto antes de copiar.
+- Usar poses de repouso sem efeito embutido como base do ataque enquanto necessario, com tween discreto e os novos efeitos separados. Isso evita duplicar uma bola de fogo ou jato ja pintado na folha antiga.
+- Espelhar lateral quando adequado; nao girar o personagem inteiro. Vistas frontais/traseiras novas continuam pendentes: nao afirmar que foram fornecidas.
+- Inspecionar os limites reais dos desenhos e usar regioes ajustadas quando necessario. Normalizar os pes/pivos e a escala por forma; nao deformar anatomia.
+- Existem poucas poses por direcao de proposito: animar repouso -> ataque -> repouso e usar movimento discreto de antecipacao, mantendo o apoio nos pes. Nao fingir que existem quadros adicionais.
+- Defensores sao estacionarios; nao e necessario criar animacao de caminhada para reposicionar entre ondas.
+- Usar Nearest para pixel art. Manter cores, contorno e direcao de luz consistentes. Sem textura de massinha e sem brilho difuso adicionado por shader.
+
+EFEITOS SEPARADOS
+- efeitos-elementais.png tem 4 colunas e 4 linhas: bola de fogo, chicotes de cipo, jato de agua e chama de queimadura. Cada linha tem quatro poses/fases.
+- O desenho foi solicitado com efeitos horizontais para a direita; conferir o sentido real antes de definir origem, rotacao e ponto de contato.
+- Sao imagens de efeito, nao hitboxes nem regras de dano. Pode girar apenas os efeitos para mirar no alvo.
+- Nao manter o raio de luz antigo em paralelo e nao embutir o projetil na textura do personagem.
+- Expor pontos de emissao por forma e direcao: boca no fogo, laterais da planta nos cipos, boca no Squirtle/Wartortle e canhoes no Blastoise.
+
+CHARMANDER / CHARMELEON / CHARIZARD
+- Ataque normal lanca uma bola de fogo a partir da boca, que percorre a distancia ate o inimigo. Velocidade configuravel, independente do FPS.
+- Causar dano direto uma vez, somente no impacto, e nao quando comeca a animacao.
+- Capturar os valores do ataque no lancamento para uma melhoria/evolucao durante o voo nao alterar retroativamente o projetil.
+- O projetil pode acompanhar um alvo valido em movimento. Se o alvo morrer ou for removido antes do impacto, desfazer o projetil sem dano, moeda ou efeito extra.
+- No impacto, sortear a possibilidade de queimadura. O nivel aumenta tanto a chance quanto o dano por tick.
+- Valores apenas iniciais e configuraveis: chance 10% + 2 pontos percentuais por nivel acima do primeiro, limitada a 60%; dano por tick 1 + 0,5 por nivel acima do primeiro, multiplicado pelo bonus da forma; duracao 3 s, um tick por segundo.
+- Permitir teste deterministico com chance 0% e 100%.
+- No maximo uma queimadura ativa por inimigo nesta versao. Nova aplicacao renova duracao sem somar instancias e sem reiniciar continuamente a cadencia, impedindo os ticks. Preservar o maior dano ainda ativo.
+- Ticks nao geram novas queimaduras. Dano de queimadura usa o mesmo fluxo de vida/morte do inimigo e recompensa uma unica vez.
+- Mostrar uma pequena chama animada enquanto o estado estiver ativo; limpar ao terminar, morrer ou reiniciar.
+
+BULBASAUR / IVYSAUR / VENUSAUR
+- Ter o menor alcance das tres linhagens. Ajustar o valor configuravel para que essa diferenca seja observavel, sem aumentar alcance com melhorias/evolucoes.
+- Atacar com dois chicotes de cipo: sair das laterais da planta, avancar em arco curto ate o alvo e recolher.
+- Pode usar o atlas de efeito junto com curva/tween/segmentos texturizados para adaptar a distancia. Nao desenhar um feixe de luz verde reto.
+- Os dois chicotes sao um unico ataque logico: aplicar dano uma vez no momento da chicotada, enquanto o alvo ainda for valido e estiver no alcance permitido.
+- Sem enraizamento, veneno ou ataque em area nesta primeira integracao; essas habilidades ainda nao foram definidas pelo usuario.
+
+SQUIRTLE / WARTORTLE / BLASTOISE
+- Atacar com jato azul de agua, gotas e respingo, saindo da boca ou dos canhoes conforme a forma.
+- Animar o jato avancando ate o alvo, em vez de uma linha luminosa aparecendo instantaneamente.
+- Aplicar dano uma vez quando a agua alcancar o alvo. O efeito visual pode durar brevemente sem aplicar dano por frame.
+- Garantir que o jato nao continue ligado a um alvo removido e nao atravesse a tela procurando referencia invalida.
+- Sem lentidao, empurrao ou perfuracao nesta etapa; esses efeitos nao foram definidos pelo usuario.
+
+NIVEL E EVOLUCAO
+- Melhorar nivel e evoluir passam a ser acoes separadas. Remover a evolucao automatica do nivel, caso exista.
+- Nivel aumenta dano; no fogo, tambem chance e dano da queimadura. Alcance e intervalo de ataque continuam fixos por linhagem.
+- Evoluir e uma compra mais cara, com salto maior no poder, preservando identidade, nivel, espaco e melhorias.
+- Proposta inicial configuravel: desbloquear a segunda forma no nivel 4 por 150 moedas, e a final no nivel 7 por 400 moedas. Mostrar requisitos e custo antes de comprar.
+- Proposta de multiplicadores absolutos da forma: 1x, 2x, 3,5x sobre o dano derivado do nivel. Substituir os multiplicadores antigos, sem acumular multiplicacoes a cada carregamento/compra.
+- Ajustar esses valores se os testes mostrarem que nao cabem na economia atual; informar o ajuste e a evidencia, em vez de alterar outras mecanicas silenciosamente.
+- Manter no maximo uma unidade de cada linhagem, mesmo evoluida.
+- Preparar dados simples para habilidades desbloqueadas por forma, sem criar framework. Habilidades especiais alem dos ataques/queimadura descritos aqui ainda precisam ser definidas; nao inventar uma arvore de habilidades nesta entrega.
+
+ECONOMIA E VERIFICACAO
+- Reutilizar combate, dano, alvos e recompensas existentes. Nao duplicar esses sistemas para cada efeito.
+- Expor configuracoes em um ponto claro, sem varrer todo o projeto repetidamente.
+- Limitar efeitos simultaneos e evitar alocacoes desnecessarias por frame. Medir antes de introduzir pooling ou otimizacoes complexas.
+- Compilar e testar focadamente: tres ataques, alvo movel, alvo morto antes do impacto, queimadura 0%/100%, ticks ate expirar, reaplicacao sem empilhar, morte por queimadura e recompensa unica.
+- Testar evolucao sem saldo, compra duplicada, requisitos de nivel e preservacao de nivel/posicao/alcance/intervalo apos evoluir.
+- Verificar visualmente emissores, orientacoes, pivos e recortes se puder executar/capturar o jogo. Nao afirmar verificacoes visuais que nao realizou.
+- Nao repetir partidas completas de dez ondas para cada ajuste de sprite. Trazer resumo e detalhes apenas de falhas relevantes.
+- Ao terminar: informar arquivos alterados, onde ajustar alcance/ataques/queimadura/evolucao, testes executados e pendencias. Parar para eu testar.

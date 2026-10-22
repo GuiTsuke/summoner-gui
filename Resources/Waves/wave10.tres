@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="WaveDefinition" load_steps=7 format=3]
+[ext_resource type="Script" path="res://Scripts/WaveDefinition.cs" id="1_wave"]
+[ext_resource type="Script" path="res://Scripts/EnemyDefinition.cs" id="2_type"]
+[ext_resource type="Resource" path="res://Resources/Enemies/slime.tres" id="S"]
+[ext_resource type="Resource" path="res://Resources/Enemies/goblin.tres" id="G"]
+[ext_resource type="Resource" path="res://Resources/Enemies/golem.tres" id="L"]
+[ext_resource type="Resource" path="res://Resources/Enemies/ogre.tres" id="B"]
+[resource]
+script = ExtResource("1_wave")
+Composition = Array[ExtResource("2_type")]([ExtResource("S"), ExtResource("G"), ExtResource("L"), ExtResource("S"), ExtResource("G"), ExtResource("L"), ExtResource("S"), ExtResource("G"), ExtResource("L"), ExtResource("S"), ExtResource("G"), ExtResource("L"), ExtResource("B")])
+HealthMultiplier = 1.9
+SpawnInterval = 1.3

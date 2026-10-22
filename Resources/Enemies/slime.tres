@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="EnemyDefinition" load_steps=3 format=3]
+[ext_resource type="Script" path="res://Scripts/EnemyDefinition.cs" id="1_def"]
+[ext_resource type="SpriteFrames" path="res://Resources/Animations/slime.tres" id="2_frames"]
+[resource]
+script = ExtResource("1_def")
+Id = "slime"
+DisplayName = "Slime"
+IsBoss = false
+MaxHealth = 45.0
+Speed = 100.0
+Reward = 10
+Frames = ExtResource("2_frames")
+VisualScale = 0.16

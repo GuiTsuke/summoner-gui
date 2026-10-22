@@ -1,0 +1,6 @@
+Title: [Chiptune] Medieval: The Bard's Tale
+Author: RandomMind
+Source: https://opengameart.org/content/chiptune-medieval-the-bards-tale
+License: CC0 1.0 Universal
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+The source page lists CC0 and provides a loop WAV. The loop was converted to OGG Vorbis for this package.

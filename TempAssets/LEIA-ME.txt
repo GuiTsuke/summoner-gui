@@ -1,0 +1,15 @@
+SummonerGui v5 - efeitos elementais e especificacao de combate
+
+NOVO
+- Atlas transparente de bola de fogo, chicotes de cipo, jato de agua e queimadura. Cada linha possui quatro fases.
+- Prompt para integrar ataques com deslocamento/contato, queimadura que cresce com nivel, alcance curto do Bulbasaur e evolucao paga separada das melhorias.
+
+PENDENTE
+- A padronizacao visual e as novas poses dos tres Pokemon foram bloqueadas pelo gerador. As folhas antigas foram preservadas, claramente separadas; nao sao artes novas nem ja uniformizadas.
+- Habilidades especiais adicionais de cada evolucao ainda precisam de definicao. O prompt nao inventa habilidades alem dos ataques e queimadura especificados.
+
+USO
+Extraia em TempAssets e peca ao Codex para ler PROMPT-CODEX.txt e ASSET-MANIFEST.json. O prompt desta versao altera regras antigas: evolucao nao e mais automatica, e Bulbasaur passa a ter o menor alcance. Valores sugeridos de custos e dano sao iniciais e configuraveis.
+
+LIMITES
+As imagens sao quadros de referencia para animacao. Recortes, pivos, alinhamento, emissores e comportamento precisam ser verificados na Godot. Nao ha garantia de ausencia de bugs antes dessa integracao. Os efeitos foram gerados pela ferramenta integrada de imagens; nao foi usado servico de API externo.

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ElementalAttackDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://Scripts/ElementalAttackDefinition.cs" id="1"]
+[resource]
+script = ExtResource("1")
+Kind = 0
+Speed = 300.0
+ContactDelay = 0.18
+RetractDuration = 0.16
+Lifetime = 3.0
+EmittersRight = PackedVector2Array(14,-18, 16,-26, 19,-26)
+EmittersLeft = PackedVector2Array(-14,-18, -16,-26, -19,-26)
+SecondaryRight = PackedVector2Array(14,-18, 16,-26, 19,-26)
+SecondaryLeft = PackedVector2Array(-14,-18, -16,-26, -19,-26)

@@ -1,0 +1,5 @@
+Modo usado: ferramenta integrada de geracao de imagens.
+
+Brief dos personagens (nao concluido pelo gerador): pixel art simples, paleta limitada, contorno escuro, um tom de sombra e um brilho; tres formas evolutivas em colunas e repouso/ataque em frente, lateral e costas em linhas. Efeitos separados do corpo.
+
+Brief do efeito gerado: atlas transparente 4x4; bola de fogo horizontal em quatro fases; dois chicotes de cipo em quatro fases; jato de agua com gotas em quatro fases; chama pequena de queimadura em quatro fases; pixels grandes e cores chapadas.

@@ -1,0 +1,131 @@
+[gd_resource type="SpriteFrames" load_steps=22 format=3]
+[ext_resource type="Texture2D" path="res://Assets/Art/Source/golem.png" id="1_sheet"]
+
+[sub_resource type="AtlasTexture" id="r0c0"]
+atlas = ExtResource("1_sheet")
+region = Rect2(133, 14, 235, 197)
+margin = Rect2(136, 253, 277, 315)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r0c1"]
+atlas = ExtResource("1_sheet")
+region = Rect2(491, 14, 238, 197)
+margin = Rect2(131, 254, 274, 315)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r0c2"]
+atlas = ExtResource("1_sheet")
+region = Rect2(847, 14, 228, 197)
+margin = Rect2(164, 253, 284, 315)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r0c3"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1192, 14, 232, 197)
+margin = Rect2(137, 253, 280, 315)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r1c0"]
+atlas = ExtResource("1_sheet")
+region = Rect2(121, 226, 236, 196)
+margin = Rect2(143, 254, 276, 316)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r1c1"]
+atlas = ExtResource("1_sheet")
+region = Rect2(485, 226, 233, 196)
+margin = Rect2(131, 254, 279, 316)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r1c2"]
+atlas = ExtResource("1_sheet")
+region = Rect2(839, 226, 236, 196)
+margin = Rect2(133, 254, 276, 316)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r1c3"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1192, 226, 236, 197)
+margin = Rect2(145, 254, 276, 315)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r2c0"]
+atlas = ExtResource("1_sheet")
+region = Rect2(116, 430, 258, 197)
+margin = Rect2(126, 253, 254, 315)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r2c1"]
+atlas = ExtResource("1_sheet")
+region = Rect2(480, 430, 256, 197)
+margin = Rect2(125, 253, 256, 315)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r2c2"]
+atlas = ExtResource("1_sheet")
+region = Rect2(830, 430, 254, 197)
+margin = Rect2(138, 253, 258, 315)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r2c3"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1171, 431, 257, 200)
+margin = Rect2(119, 250, 255, 312)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r3c0"]
+atlas = ExtResource("1_sheet")
+region = Rect2(128, 642, 242, 193)
+margin = Rect2(143, 258, 270, 319)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r3c1"]
+atlas = ExtResource("1_sheet")
+region = Rect2(487, 640, 234, 199)
+margin = Rect2(119, 251, 278, 313)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r3c2"]
+atlas = ExtResource("1_sheet")
+region = Rect2(855, 642, 229, 195)
+margin = Rect2(129, 255, 283, 317)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r3c3"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1192, 642, 233, 194)
+margin = Rect2(142, 256, 279, 318)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r4c0"]
+atlas = ExtResource("1_sheet")
+region = Rect2(127, 845, 258, 164)
+margin = Rect2(132, 286, 254, 348)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r4c1"]
+atlas = ExtResource("1_sheet")
+region = Rect2(452, 870, 309, 139)
+margin = Rect2(97, 311, 203, 373)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r4c2"]
+atlas = ExtResource("1_sheet")
+region = Rect2(807, 867, 313, 143)
+margin = Rect2(129, 307, 199, 369)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="r4c3"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1210, 910, 229, 96)
+margin = Rect2(160, 360, 283, 416)
+filter_clip = true
+
+[resource]
+animations = [
+{"frames": [{"duration": 1.0, "texture": SubResource("r0c0")}, {"duration": 1.0, "texture": SubResource("r0c1")}, {"duration": 1.0, "texture": SubResource("r0c2")}, {"duration": 1.0, "texture": SubResource("r0c3")}], "loop": true, "name": &"move_right", "speed": 6.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("r1c0")}, {"duration": 1.0, "texture": SubResource("r1c1")}, {"duration": 1.0, "texture": SubResource("r1c2")}, {"duration": 1.0, "texture": SubResource("r1c3")}], "loop": true, "name": &"move_left", "speed": 6.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("r2c0")}, {"duration": 1.0, "texture": SubResource("r2c1")}, {"duration": 1.0, "texture": SubResource("r2c2")}, {"duration": 1.0, "texture": SubResource("r2c3")}], "loop": true, "name": &"move_front", "speed": 6.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("r3c0")}, {"duration": 1.0, "texture": SubResource("r3c1")}, {"duration": 1.0, "texture": SubResource("r3c2")}, {"duration": 1.0, "texture": SubResource("r3c3")}], "loop": false, "name": &"hit", "speed": 10.0},
+{"frames": [{"duration": 1.0, "texture": SubResource("r4c0")}, {"duration": 1.0, "texture": SubResource("r4c1")}, {"duration": 1.0, "texture": SubResource("r4c2")}, {"duration": 1.0, "texture": SubResource("r4c3")}], "loop": false, "name": &"death", "speed": 6.0}
+]

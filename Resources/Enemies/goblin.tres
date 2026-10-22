@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="EnemyDefinition" load_steps=3 format=3]
+[ext_resource type="Script" path="res://Scripts/EnemyDefinition.cs" id="1_def"]
+[ext_resource type="SpriteFrames" path="res://Resources/Animations/goblin.tres" id="2_frames"]
+[resource]
+script = ExtResource("1_def")
+Id = "goblin"
+DisplayName = "Goblin"
+IsBoss = false
+MaxHealth = 30.0
+Speed = 135.0
+Reward = 12
+Frames = ExtResource("2_frames")
+VisualScale = 0.16

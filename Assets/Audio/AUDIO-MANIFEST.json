@@ -1,0 +1,116 @@
+[
+  {
+    "event": "clique",
+    "file": "Assets/Audio/sfx/ui_click.ogg",
+    "pack": "interface-sounds",
+    "original": "Audio/click_001.ogg",
+    "license": "CC0"
+  },
+  {
+    "event": "selecionar espaco",
+    "file": "Assets/Audio/sfx/ui_select.ogg",
+    "pack": "interface-sounds",
+    "original": "Audio/select_001.ogg",
+    "license": "CC0"
+  },
+  {
+    "event": "invocacao",
+    "file": "Assets/Audio/sfx/summon.ogg",
+    "pack": "interface-sounds",
+    "original": "Audio/confirmation_001.ogg",
+    "license": "CC0"
+  },
+  {
+    "event": "melhoria",
+    "file": "Assets/Audio/sfx/upgrade.ogg",
+    "pack": "interface-sounds",
+    "original": "Audio/confirmation_002.ogg",
+    "license": "CC0"
+  },
+  {
+    "event": "evolucao",
+    "file": "Assets/Audio/sfx/evolve.ogg",
+    "pack": "interface-sounds",
+    "original": "Audio/maximize_001.ogg",
+    "license": "CC0"
+  },
+  {
+    "event": "moeda",
+    "file": "Assets/Audio/sfx/coin.ogg",
+    "pack": "interface-sounds",
+    "original": "Audio/pluck_001.ogg",
+    "license": "CC0"
+  },
+  {
+    "event": "acao indisponivel",
+    "file": "Assets/Audio/sfx/denied.ogg",
+    "pack": "interface-sounds",
+    "original": "Audio/error_002.ogg",
+    "license": "CC0"
+  },
+  {
+    "event": "inicio de onda",
+    "file": "Assets/Audio/sfx/wave_start.ogg",
+    "pack": "interface-sounds",
+    "original": "Audio/open_001.ogg",
+    "license": "CC0"
+  },
+  {
+    "event": "aviso do chefe",
+    "file": "Assets/Audio/sfx/boss_alert.ogg",
+    "pack": "interface-sounds",
+    "original": "Audio/question_001.ogg",
+    "license": "CC0"
+  },
+  {
+    "event": "impacto no inimigo",
+    "file": "Assets/Audio/sfx/hit.ogg",
+    "pack": "impact-sounds",
+    "original": "Audio/impactGeneric_light_000.ogg",
+    "license": "CC0"
+  },
+  {
+    "event": "impacto na pedra",
+    "file": "Assets/Audio/sfx/stone_hit.ogg",
+    "pack": "impact-sounds",
+    "original": "Audio/impactMining_000.ogg",
+    "license": "CC0"
+  },
+  {
+    "event": "pedra destruida",
+    "file": "Assets/Audio/sfx/stone_break.ogg",
+    "pack": "impact-sounds",
+    "original": "Audio/impactMining_004.ogg",
+    "license": "CC0"
+  },
+  {
+    "event": "derrota do inimigo",
+    "file": "Assets/Audio/sfx/enemy_defeat.ogg",
+    "pack": "impact-sounds",
+    "original": "Audio/impactSoft_medium_000.ogg",
+    "license": "CC0"
+  },
+  {
+    "event": "vinheta candidata de vitoria",
+    "file": "Assets/Audio/sfx/victory.ogg",
+    "pack": "music-jingles",
+    "original": "Audio/8-Bit jingles/jingles_NES00.ogg",
+    "license": "CC0"
+  },
+  {
+    "event": "vinheta candidata de derrota",
+    "file": "Assets/Audio/sfx/defeat.ogg",
+    "pack": "music-jingles",
+    "original": "Audio/8-Bit jingles/jingles_NES08.ogg",
+    "license": "CC0"
+  },
+  {
+    "event": "musica em loop",
+    "file": "Assets/Audio/music/bards_tale_loop.ogg",
+    "author": "RandomMind",
+    "title": "[Chiptune] Medieval: The Bard's Tale",
+    "source": "https://opengameart.org/content/chiptune-medieval-the-bards-tale",
+    "license": "CC0",
+    "processing": "WAV original convertido para OGG Vorbis qualidade 4, sem alterar andamento ou duracao"
+  }
+]

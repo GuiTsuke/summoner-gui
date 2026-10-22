@@ -1,0 +1,141 @@
+[
+  {
+    "name": "tres-pokemon-com-melhorias",
+    "expectedOutcome": "Victory",
+    "requireUpgrade": true,
+    "requireAllActionsReached": true,
+    "actions": [
+      {
+        "wave": 1,
+        "kind": "summon",
+        "slot": 2,
+        "lineage": "bulbasaur"
+      },
+      {
+        "wave": 1,
+        "kind": "summon",
+        "slot": 5,
+        "lineage": "charmander"
+      },
+      {
+        "wave": 1,
+        "kind": "summon",
+        "slot": 8,
+        "lineage": "squirtle"
+      },
+      {
+        "wave": 2,
+        "kind": "upgrade",
+        "slot": 2
+      },
+      {
+        "wave": 2,
+        "kind": "upgrade",
+        "slot": 5
+      },
+      {
+        "wave": 3,
+        "kind": "upgrade",
+        "slot": 2
+      },
+      {
+        "wave": 4,
+        "kind": "upgrade",
+        "slot": 2
+      },
+      {
+        "wave": 5,
+        "kind": "upgrade",
+        "slot": 5
+      },
+      {
+        "wave": 5,
+        "kind": "upgrade",
+        "slot": 8
+      },
+      {
+        "wave": 6,
+        "kind": "upgrade",
+        "slot": 5
+      },
+      {
+        "wave": 6,
+        "kind": "upgrade",
+        "slot": 8
+      },
+      {
+        "wave": 7,
+        "kind": "upgrade",
+        "slot": 2
+      },
+      {
+        "wave": 7,
+        "seconds": 6,
+        "kind": "upgrade",
+        "slot": 8
+      },
+      {
+        "wave": 8,
+        "kind": "upgrade",
+        "slot": 2
+      },
+      {
+        "wave": 9,
+        "kind": "upgrade",
+        "slot": 2
+      },
+      {
+        "wave": 9,
+        "seconds": 9,
+        "kind": "upgrade",
+        "slot": 5
+      },
+      {
+        "wave": 10,
+        "kind": "upgrade",
+        "slot": 8
+      },
+      {
+        "wave": 10,
+        "kind": "upgrade",
+        "slot": 5
+      },
+      {
+        "wave": 10,
+        "seconds": 10,
+        "kind": "upgrade",
+        "slot": 2
+      }
+    ]
+  },
+  {
+    "name": "tres-pokemon-sem-melhorias",
+    "expectedOutcome": "Defeat",
+    "requireAllActionsReached": false,
+    "actions": [
+      {
+        "wave": 1,
+        "kind": "summon",
+        "slot": 2,
+        "lineage": "bulbasaur"
+      },
+      {
+        "wave": 1,
+        "kind": "summon",
+        "slot": 5,
+        "lineage": "charmander"
+      },
+      {
+        "wave": 1,
+        "kind": "summon",
+        "slot": 8,
+        "lineage": "squirtle"
+      }
+    ]
+  },
+  {
+    "name": "sem-defesas",
+    "expectedOutcome": "Defeat",
+    "actions": []
+  }
+]

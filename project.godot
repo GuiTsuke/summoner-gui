@@ -15,6 +15,10 @@ run/main_scene="res://Main.tscn"
 config/features=PackedStringArray("4.7", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+GameAudio="*res://Scenes/AudioController.tscn"
+
 [display]
 
 window/size/viewport_width=540
