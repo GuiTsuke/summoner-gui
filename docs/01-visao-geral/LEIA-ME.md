@@ -1,6 +1,7 @@
 # Documentação de visão geral
 
 - `visao-do-projeto.md`: visão de produto e experiência desejada (TO-BE).
+- `metodologia-de-trabalho.md`: padrão de comunicação, decisões, consulta documental e commits para todos os chats.
 - `registro-de-decisoes.md`: índice das decisões conceituais aprovadas (DEC-001 a DEC-016).
 - `questoes-pendentes.md`: propostas não aprovadas e perguntas com responsável e momento de retomada (PEN-001 a PEN-016).
 - `../02-universo/LEIA-ME.md`: documentação temática do universo, com decisões aprovadas e limites do que ainda falta decidir.
