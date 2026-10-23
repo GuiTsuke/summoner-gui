@@ -1,7 +1,7 @@
 # A Essência e a natureza dos Selumins
 
 > Status: fundamentos conceituais aprovados (DEC-005, DEC-009, DEC-010, DEC-011); cosmologia detalhada pendente.
-> Atualizado: 22/10/2026 (São Paulo).
+> Atualizado: 23/10/2026 (São Paulo).
 
 ## Essência: o que está aprovado
 
@@ -20,6 +20,18 @@
 - Têm habitats, famílias, comunidades e relações próprias, sem obrigatoriedade de qualquer contato, pacto ou proteção humana.
 - São capazes de defender comunidades e desenvolver soluções independentes.
 
+## Identidade corporal e proximidade com a vida — DEC-024 e DEC-025
+
+- Os Selumins são criaturas corporais e orgânicas, inspiradas em formas de vida reconhecíveis: animais, insetos, plantas e outros organismos a explorar, não objetos inanimados ou espectros incorpóreos.
+- A magia pode permitir fenômenos extraordinários sem afastar os Selumins de necessidades e fragilidades próprias da vida.
+- Podem se ferir, sangrar ou ter equivalentes biológicos conforme a espécie (como hemolinfa e seiva), adoecer e sentir efeitos físicos do mundo.
+- Quando transportados pela invocação, preservam o próprio corpo e suas condições. O teleporte não cura cansaço, ferimentos nem doenças; cuidados e recuperação são necessários quando apropriado.
+- **Em aberto:** o limite dos organismos possíveis, anatomia detalhada e tradução dessas consequências em mecânicas (PEN-017 e PEN-020).
+
+## A Essência como fenômeno impessoal — DEC-017
+
+A ressonância de um pacto reconhece autenticidade da conexão e da vontade de dois indivíduos, mas a Essência não é tratada como divindade, pessoa, mente humanizada ou juiz moral onisciente. Isso não define sua origem ou todos os seus fenômenos (PEN-002).
+
 ## Marca da Essência: ponto ainda aberto
 
 A Marca da Essência é um conceito associado aos Selumins. Há a intenção de símbolos com identidade elemental que **podem** se repetir em diferentes espécies do mesmo elemento. A aparência, surgimento, função, relação com evolução e comportamento da Marca **não** estão fixados (PEN-002).
@@ -28,7 +40,7 @@ A Marca da Essência é um conceito associado aos Selumins. Há a intenção de 
 
 ## Não estabelecido
 
-- Origem e possível consciência da Essência.
+- Origem, processos fundamentais e eventual natureza não humana da Essência (sem a definir como divindade ou mente antropomorfizada).
 - Ecologia quantitativa, escalas de recuperação, condições precisas da escassez e sua reversibilidade.
 - Afirmar que todos os Selumins morrem imediatamente sem Essência ambiental.
 - Imortalidade dos Selumins. A expressão **viver toda a vida sem humanos** não define longevidade infinita.
@@ -36,4 +48,4 @@ A Marca da Essência é um conceito associado aos Selumins. Há a intenção de 
 
 ## Dependências
 
-PEN-002 (cosmologia e Marcas), PEN-007 (evolução), PEN-015 (impactos ambientais) e PEN-016 (sociedades).
+PEN-002 (cosmologia e Marcas), PEN-007 (evolução), PEN-015 (impactos ambientais), PEN-016 (sociedades), PEN-017 (escopo biológico) e PEN-020 (recuperação no jogo).

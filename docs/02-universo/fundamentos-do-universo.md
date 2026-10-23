@@ -1,13 +1,19 @@
 # Fundamentos filosóficos do universo
 
-> Status: princípios conceituais aprovados (DEC-010, DEC-011, DEC-012, DEC-013).
-> Atualizado: 22/10/2026 (São Paulo).
+> Status: princípios conceituais aprovados (DEC-010 a DEC-013, DEC-017 a DEC-025).
+> Atualizado: 23/10/2026 (São Paulo).
 
-## Duas frases centrais — preservar literalmente
+## Frases centrais — preservar literalmente
 
 > **Não é o poder que determina a importância de uma vida, mas aquilo que cada ser pode oferecer ao mundo e aos outros.**
 
 > **Ninguém precisa pertencer a alguém, lutar por alguém ou oferecer poderes para que uma relação tenha valor.**
+
+> **Um pacto não é a promessa de atender a todos os chamados, mas o compromisso de respeitar a ligação que torna possível chamar um ao outro.**
+
+> **Os Selumins são criaturas vivas de um mundo mágico, não objetos ou manifestações sobrenaturais que simplesmente assumem formas de criaturas.**
+
+> **A magia desperta o encantamento; a familiaridade com a vida permite transportar esse encantamento para a realidade.**
 
 ### Interpretação ética
 
@@ -30,9 +36,9 @@ Selumins são sujeitos de suas próprias vidas, e não peças de combate, propri
 
 Humanos podem criar, planejar, ensinar, aprender, lutar e proteger. Não precisam ter pacto para ter importância. Tecnologias e mecanismos podem ser ferramentas de cuidado, proteção ou exploração; sua avaliação depende do uso e das consequências, não de uma condenação automática da tecnologia.
 
-## Relações e vínculos (DEC-013 e DEC-014)
+## Relações e vínculos (DEC-013, DEC-014, DEC-017 a DEC-020, DEC-023)
 
-A relação entre um humano e um Selumin não é posse. Amizade, ajuda e respeito têm valor mesmo sem pacto e sem invocação. O pacto é uma possibilidade especial, não uma obrigação ou prêmio pelo qual um Selumin teria de lutar.
+A relação entre um humano e um Selumin não é posse. Amizade, ajuda e respeito têm valor mesmo sem pacto e sem invocação. O pacto é uma possibilidade especial, não uma obrigação ou prêmio pelo qual um Selumin teria de lutar. Recusa legítima não diminui sua dignidade nem enfraquece automaticamente a conexão: desconsiderar a autonomia do outro é que pode prejudicar o vínculo.
 
 ## Aplicação à campanha inicial
 
