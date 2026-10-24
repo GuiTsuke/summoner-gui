@@ -95,6 +95,7 @@ A indisponibilidade de Selumins por compromissos, recusas ou ferimentos pode mot
 - PEN-019: exceções de retorno, lugar destruído ou instável e condições de segurança.
 - PEN-020: ferimentos e recuperação na jogabilidade.
 - PEN-021: ruptura, pactos múltiplos e coleção/progressão permanente.
+- PEN-026: garantir que a jogabilidade da primeira campanha, anterior ao primeiro pacto do protagonista, não contradiga a invocação à distância.
 - PEN-022: capacidade, números e progressão de invocações simultâneas no jogo.
 - PEN-004 e PEN-009: escolha de vínculo e roteiro exato da campanha inicial **não aprovados**.
 

@@ -1,7 +1,7 @@
 # Fundamentos filosóficos do universo
 
-> Status: princípios aprovados (DEC-010 a DEC-013, DEC-017 a DEC-025, DEC-036 a DEC-038).
-> Atualizado: 23/10/2026 (São Paulo).
+> Status: princípios aprovados (DEC-010 a DEC-013, DEC-017 a DEC-025, DEC-036 a DEC-048).
+> Atualizado: 24/10/2026 (São Paulo).
 
 ## Frases centrais — preservar literalmente
 
@@ -28,6 +28,14 @@ As cinco frases acima já foram confirmadas e devem permanecer literalmente igua
 > Vencer uma batalha não precisa significar tirar uma vida. E compreender um adversário pode ser tão importante quanto derrotá-lo.
 
 > Se você precisar de mim, farei o possível para estar ao seu lado. E, quando eu não puder, confiarei que você compreenderá.
+
+> A magia do pacto não cria a confiança entre os dois; ela revela uma conexão que construíram livremente.
+
+> Nossa primeira grande vitória não será dos humanos sobre os Selumins, nem dos Selumins sobre os humanos. Será uma vitória construída por eles juntos.
+
+> Proteger uma forma de vida não deve exigir abandonar outra.
+
+> Dois seres, mas um só coração. (metáfora possível em uma lenda local; não significa fusão)
 
 Outras frases que possam ter ficado de fora serão revisadas em rodadas futuras, sem atribuir-lhes aprovação retroativa.
 
@@ -71,7 +79,7 @@ O mundo dos Selumins deve ser **animado, divertido, mágico e encantador**, mas 
 
 ## Aplicação à campanha inicial
 
-A proposta de uma floresta ameaçada por exploração humana da Essência ilustra esses valores, **mas não é roteiro aprovado** (PEN-009). O primeiro jogo deverá apresentar uma campanha curta e completa (DEC-008), com um conflito que não reduza todos os humanos a vilões.
+A **direção aprovada** da campanha inclui floresta de nascentes, vila antiga em transformação, exploração gananciosa por organização externa com apoiadores locais, cooperação entre povos, vitória que protege lares humanos e Selumins e possibilidade de pacto apenas **depois** do clímax (DEC-039 a DEC-048). O roteiro integral permanece aberto em PEN-009. Ver [primeira-regiao-e-campanha.md](primeira-regiao-e-campanha.md).
 
 ## Questões abertas
 

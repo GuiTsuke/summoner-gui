@@ -2,8 +2,8 @@
 
 - `visao-do-projeto.md`: visão de produto e experiência desejada (TO-BE).
 - `metodologia-de-trabalho.md`: padrão de comunicação, decisões, consulta documental e commits para todos os chats.
-- `registro-de-decisoes.md`: índice das decisões conceituais aprovadas (DEC-001 a DEC-038).
-- `questoes-pendentes.md`: propostas não aprovadas e perguntas com responsável e momento de retomada (PEN-001 a PEN-025).
+- `registro-de-decisoes.md`: índice das decisões conceituais aprovadas (DEC-001 a DEC-048).
+- `questoes-pendentes.md`: propostas não aprovadas e perguntas com responsável e momento de retomada (PEN-001 a PEN-027).
 - `../02-universo/LEIA-ME.md`: documentação temática do universo, com decisões aprovadas e limites do que ainda falta decidir.
 
 Os documentos existentes em `docs/`, `docs/plans/` e `docs/specs/` do protótipo devem ser **preservados** nesta etapa. Não foram movidos nem alterados por este pacote. Antes de qualquer refatoração, o Codex deve verificar o código-fonte e os testes atuais para confirmar o AS-IS.
@@ -29,3 +29,7 @@ As DEC-026 a DEC-035 completam os fundamentos conceituais da formação, limites
 ## Tom narrativo e sementes — 23/10/2026
 
 DEC-036 a DEC-038 aprovam adversários variados, resolução predominantemente não letal dos confrontos e um mundo encantador mas sujeito ao tempo e às perdas. PEN-023 a PEN-025 distribuem os detalhes entre as áreas. O novo `docs/02-universo/sementes-narrativas.md` reúne ideias futuras, sem transformá-las em roteiros definitivos.
+
+## Campanha inicial e decisão estratégica pendente — 24/10/2026
+
+DEC-039 a DEC-048 aprofundam cenário, culturas, vila, exploração, outros povos, folclore local sobre pactos, primeiro encontro, clímax e escolha de pacto adiável. PEN-004/005/009/015/016/023 foram refinadas; PEN-026 cobre o jogo antes do pacto e PEN-027 guarda a exploração da hipótese de mudança de gênero / franquia multigênero. Nenhuma mudança do Tower Defense foi decidida nem foi alterado código.

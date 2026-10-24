@@ -1,7 +1,7 @@
 # História e Universo — documentação oficial
 
 > Status: fundamentos conceituais aprovados nas conversas, regras e narrativa detalhadas ainda pendentes.
-> Atualizado em: 23/10/2026 (horário de São Paulo).
+> Atualizado em: 24/10/2026 (horário de São Paulo).
 > Fonte de verdade: este repositório, com índice em ../01-visao-geral/registro-de-decisoes.md.
 
 ## Propósito
@@ -12,11 +12,12 @@ Construir o universo autoral dos Selumins para o Tower Defense SummonerGui (nome
 
 - [fundamentos-do-universo.md](fundamentos-do-universo.md): valores, frases confirmadas, candidatas para revisão, humanidade e coexistência.
 - [sementes-narrativas.md](sementes-narrativas.md): banco de ideias de histórias e cenas futuras, que não são roteiros aprovados.
+- [primeira-regiao-e-campanha.md](primeira-regiao-e-campanha.md): decisões de região, comunidades, conflito, encontro dos protagonistas, clímax e escolha de pacto; roteiro detalhado ainda aberto.
 - [essencia-e-selumins.md](essencia-e-selumins.md): natureza dos Selumins, Essência, ecologia e Marca da Essência.
 - [humanos-e-convivencia.md](humanos-e-convivencia.md): capacidades humanas, cooperação, tecnologia e conflitos éticos.
 - [vinculos-pactos-e-invocacao.md](vinculos-pactos-e-invocacao.md): diferença entre amizade e pacto, invocação, manifestações, capacidades e limites.
-- [../01-visao-geral/registro-de-decisoes.md](../01-visao-geral/registro-de-decisoes.md): índice de DEC-001 a DEC-038.
-- [../01-visao-geral/questoes-pendentes.md](../01-visao-geral/questoes-pendentes.md): pendências PEN-001 a PEN-025.
+- [../01-visao-geral/registro-de-decisoes.md](../01-visao-geral/registro-de-decisoes.md): índice de DEC-001 a DEC-048.
+- [../01-visao-geral/questoes-pendentes.md](../01-visao-geral/questoes-pendentes.md): pendências PEN-001 a PEN-027.
 
 ## Convenções
 
@@ -29,11 +30,11 @@ Construir o universo autoral dos Selumins para o Tower Defense SummonerGui (nome
 
 ## Fora do escopo desta etapa
 
-A origem exata da Essência, ciclos quantitativos, formas e desenhos das Marcas da Essência, nomes comerciais e limites quantitativos/especiais da invocação, espécies definitivas, protagonistas, sociedades detalhadas e história final da campanha inicial.
+A origem exata da Essência, ciclos quantitativos, formas e desenhos das Marcas da Essência, nomes comerciais e limites quantitativos/especiais da invocação, espécies definitivas, nomes dos protagonistas, culturas detalhadas e roteiro final da campanha inicial.
 
 ## Referências de decisões
 
-DEC-005, DEC-009 a DEC-038. A PEN-003 está resolvida conceitualmente; PEN-002 e PEN-013 a PEN-025 acompanham as questões que permanecem abertas.
+DEC-005, DEC-009 a DEC-048. A PEN-003 está resolvida conceitualmente; PEN-002 e PEN-013 a PEN-027 acompanham as questões que permanecem abertas.
 
 ## Nota de preservação
 

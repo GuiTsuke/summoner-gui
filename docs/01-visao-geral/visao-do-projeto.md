@@ -1,7 +1,7 @@
 # Visão do projeto — SummonerGui (nome provisório)
 
 > Status: visão inicial aprovada em conversa; detalhes sujeitos a especificação.
-> Última atualização: 22/10/2026 (horário de São Paulo).
+> Última atualização: 24/10/2026 (horário de São Paulo).
 
 ## Proposta
 
@@ -43,13 +43,17 @@ O jogo será **fácil de aprender, estratégico de dominar e emocionalmente rico
 
 Entregar uma **campanha inicial pequena, porém completa**, com começo, desenvolvimento e conclusão, introduzindo o universo e integrando a história ao Tower Defense. O encerramento deve satisfazer e abrir espaço para novas aventuras.
 
-**Conceito narrativo em exploração (não aprovado como roteiro):** floresta ameaçada por exploração humana da Essência; encontro com um Selumin desconfiado; possível vínculo temporário; defesas em pontos da floresta; descoberta de outras criaturas; vitória e eventual convite a vínculo permanente. O número de capítulos, personagens, espécies, inimigos, poderes e finais permanece aberto.
+**Direção narrativa aprovada (DEC-039 a DEC-048):** floresta de nascentes, vila antiga em transformação e comunidades diversas; exploração abusiva da Essência por organização externa com apoiadores locais; protagonista e Selumin incomum se conhecem em confronto por mal-entendido, colaboram sem pacto, enfrentam o chefe que revela ter um pacto, vencem e só então percebem a ressonância que torna possível escolher livremente o próprio pacto ou adiá-lo. O pacto adiado poderá ser oferecido futuramente sem punição irreversível. Ver `../02-universo/primeira-regiao-e-campanha.md`; capítulos, elenco e mecânicas permanecem abertos.
 
 ## Experiência pretendida
 
 Defesas, alianças, melhorias e evoluções devem ter peso emocional quando a história pedir, sem impedir acesso rápido à jogabilidade.
 
 **Direção aprovada (DEC-036 a DEC-038):** o mundo abriga outras formas de vida mágica além dos Selumins, com inimigos variados. Derrotas ordinárias não implicam morte automática. A fantasia deve permanecer divertida, animada e encantadora, mas preservar envelhecimento, mudança, esquecimento, perda e consequências reais para criaturas, pessoas e lugares.
+
+## Possibilidade estratégica ainda não aprovada — PEN-027
+
+O criador está explorando se o primeiro título deveria **continuar Tower Defense** e funcionar como introdução/prológo de um universo maior, com **jogos futuros em gêneros diferentes** (RPG, aventura), ou se valeria revisar o gênero já no primeiro jogo. **Nenhuma migração de gênero foi aprovada:** DEC-001, DEC-007 e DEC-008 continuam vigentes. Avaliar no chat 01, com apoio do 04/05, antes de mudar projeto, código, escopo, MVP ou calendário. Há um risco concreto a estudar: a história coloca o primeiro pacto do protagonista depois da vitória, enquanto invocação é pilar do Tower Defense; ver PEN-026.
 
 ## Limites desta definição
 

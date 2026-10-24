@@ -39,6 +39,20 @@ Muito tempo após a morte de um parceiro querido, uma sensação, luz passageira
 
 **Em aberto:** personagem, circunstâncias, região e natureza exata do fenômeno. **Referências:** DEC-033 e DEC-038; PEN-013 e PEN-025.
 
+## SN-005 — Um mistério além da floresta
+**Status:** em exploração; não aprovado como causa da primeira campanha. **Área:** 02.
+
+Rumores, geografias, lendas ou manifestações pouco compreendidas dão a sensação de que há um mundo enorme ainda não explorado. Uma ameaça mágica desconhecida poderá ser tema de aventura posterior e **não deve ser imposta retroativamente como responsável secreta pelos atos da organização**.
+
+**Em aberto:** existência concreta da ameaça, natureza, localização, narrativa e eventual participação de outras mídias/jogos. **Referências:** DEC-043 e PEN-023/027.
+
+## SN-006 — O reencontro com o primeiro Selumin
+**Status:** em exploração como cena; **a possibilidade de reencontro e novo pacto é aprovada** em DEC-048. **Áreas:** 02 / 04.
+
+Caso o jogador adie o pacto no final da primeira campanha, poderá reencontrar o Selumin incomum em uma aventura futura e recordar a ligação inicial. A cena específica de reencontro, a passagem do tempo, a conversa e as circunstâncias da nova ressonância ainda não foram decididas.
+
+**Em aberto:** local, capítulo ou jogo do reencontro e consequências de aceitar/adiar novamente. **Referências:** DEC-045 a DEC-048 e PEN-004.
+
 ## Observação para outras sementes
 
 Um Selumin que opta por permanecer e proteger seu parceiro apesar do desejo humano de enviá-lo de volta é permitido pela DEC-023. Essa ideia poderá receber uma SN própria quando for desenvolvida como cena específica.
