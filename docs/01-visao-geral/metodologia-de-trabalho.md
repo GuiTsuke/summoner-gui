@@ -12,6 +12,21 @@
 4. **Desenvolver incrementalmente:** primeiro alinhar visão e requisitos suficientes, depois especificar, implementar, testar e validar. Não é necessário encerrar todo o universo antes de desenvolver.
 5. **Colaboração crítica:** avaliar alternativas, consequências e riscos; fazer recomendações fundamentadas, sem concordância automática ou expansão descontrolada do escopo.
 
+## Produção orientada a entregas
+
+> Diretriz de processo aprovada: documentação deve orientar e acompanhar a produção, nunca substituí-la.
+
+- **Decidir o suficiente para o próximo marco:** não exigir cosmologia, história ou sistemas completos para iniciar uma fatia jogável. Detalhes sem impacto imediato podem permanecer como pendências identificadas.
+- **Vincular discussões a resultados concretos:** antes de aprofundar um tema, perguntar qual experiência, decisão de escopo, artefato ou teste ele permite produzir agora. Se não houver impacto no marco atual, registrar no backlog e seguir.
+- **Trabalhar em ciclos curtos:** estabelecer o trecho da experiência → definir requisitos mínimos → implementar a partir da baseline verificada → jogar/testar → corrigir → registrar aprendizado e próximas decisões.
+- **Priorizar uma fatia vertical:** um trecho pequeno e representativo que reúna narrativa essencial, interação, defesa e feedback de progressão; seu conteúdo exato será aprovado em Game Design e Especificações, sem presumir funcionalidades ainda indefinidas.
+- **Equilibrar criar, construir e validar:** revisitar periodicamente se o trabalho está gerando jogo executável e aprendizado de implementação, além de documentos.
+- **Não igualar todo o lore ao escopo de lançamento:** regras do universo podem sustentar futuros jogos sem precisarem virar sistemas no primeiro produto.
+- **Preservar qualidade mínima:** cada entrega implementada deve ter critérios verificáveis e testes adequados; evitar acelerar por meio de mudanças não revisadas ou perda do histórico.
+- **Manter prioridades explícitas:** distinguir `agora` (necessário para o próximo marco), `depois` (útil mas adiável) e `futuro` (visão de longo prazo). A priorização não altera decisões aprovadas nem autoriza implementação sem especificação.
+
+A sequência recomendada para a fase atual é: **esqueleto do primeiro arco narrativo → Game Design essencial da fatia → direção visual mínima → especificação e critérios de aceite → implementação e validação no protótipo Godot**. As áreas podem iterar em paralelo quando isso reduzir retrabalho. A sequência é orientação de processo, não aprovação antecipada de conteúdo, calendário ou MVP.
+
 ## Áreas responsáveis
 
 | Chat | Responsabilidade |
