@@ -82,6 +82,27 @@ Não realizar commit automático para mera proposta, exemplo narrativo ou hipót
 - Git: histórico das versões; não gerar arquivos `final-v2-final` como mecanismo de versionamento.
 - As definições do jogo (TO-BE) não são automaticamente funcionalidades implementadas (AS-IS).
 
+## Escalabilidade documental e memória de contexto
+
+> Melhoria de organização aprovada para adotar **progressivamente**, sem interromper a produção para reorganizar todos os arquivos de uma só vez.
+
+Organizar as informações em três níveis lógicos:
+
+1. **Índice geral:** visão, decisões aprovadas (DEC) e questões pendentes (PEN), com resumos curtos e links para os documentos responsáveis.
+2. **Documentos temáticos e especificações:** fundamentos do universo, narrativa, visual, mecânicas e arquitetura separados por assunto; requisitos e critérios de aceite por funcionalidade ou marco.
+3. **Implementação e histórico:** código, testes, commits, registros da baseline AS-IS e documentos antigos preservados.
+
+Diretrizes de manutenção:
+
+- Manter o `registro-de-decisoes.md` como **índice de consulta**, priorizando identificador, resumo inequívoco, status, área responsável e referência ao detalhamento; não duplicar toda a discussão nele.
+- Dividir arquivos extensos **por assunto e coesão**, não por limites artificiais de linhas, caracteres ou tokens. Arquivos grandes são permitidos quando bem estruturados.
+- Em cada tarefa, consultar **somente os documentos pertinentes** e suas dependências; não pressupor que todos os arquivos caibam na memória ou sejam automaticamente recuperados entre chats.
+- Ao iniciar cada marco implementável, criar um **resumo de contexto do marco** em `docs/05-especificacoes/` (ou estrutura equivalente aprovada), com objetivo, escopo, decisões e documentos relevantes, AS-IS/TO-BE, critérios de aceite e riscos. O modelo de arquivo e seu conteúdo serão definidos no chat 05 quando houver o primeiro marco.
+- Preservar `docs/specs/`, `docs/plans/` e outros artefatos históricos do protótipo; não tratá-los como especificações definitivas do TO-BE.
+- Revisar a legibilidade dos índices e quebrar documentação quando o crescimento realmente dificultar a consulta, **sem criar refatorações documentais que atrasem a fatia vertical**.
+
+**Estado da melhoria:** índice e documentos temáticos já existem; refinamento do índice, nova área de especificações e resumo por marco ficam registrados como ações futuras a executar quando forem úteis para a próxima entrega. Não são exigências para terminar toda a lore antes de programar.
+
 ## Relação com Codex
 
 Este documento orienta a **colaboração e a governança das decisões**. Um `AGENTS.md` específico poderá traduzir as decisões em regras operacionais para agentes que inspecionam código, editam arquivos, executam testes e entregam implementações. Não alterar o `AGENTS.md` existente sem avaliação no chat 06.
