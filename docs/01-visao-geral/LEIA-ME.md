@@ -2,8 +2,8 @@
 
 - `visao-do-projeto.md`: visão de produto e experiência desejada (TO-BE).
 - `metodologia-de-trabalho.md`: padrão de comunicação, decisões, consulta documental e commits para todos os chats.
-- `registro-de-decisoes.md`: índice das decisões conceituais aprovadas (DEC-001 a DEC-035).
-- `questoes-pendentes.md`: propostas não aprovadas e perguntas com responsável e momento de retomada (PEN-001 a PEN-022).
+- `registro-de-decisoes.md`: índice das decisões conceituais aprovadas (DEC-001 a DEC-038).
+- `questoes-pendentes.md`: propostas não aprovadas e perguntas com responsável e momento de retomada (PEN-001 a PEN-025).
 - `../02-universo/LEIA-ME.md`: documentação temática do universo, com decisões aprovadas e limites do que ainda falta decidir.
 
 Os documentos existentes em `docs/`, `docs/plans/` e `docs/specs/` do protótipo devem ser **preservados** nesta etapa. Não foram movidos nem alterados por este pacote. Antes de qualquer refatoração, o Codex deve verificar o código-fonte e os testes atuais para confirmar o AS-IS.
@@ -25,3 +25,7 @@ Registradas DEC-017 a DEC-025 e PEN-017 a PEN-021, com atualização de PEN-002/
 ## Conclusão da PEN-003 — 23/10/2026
 
 As DEC-026 a DEC-035 completam os fundamentos conceituais da formação, limites e encerramento dos pactos. A PEN-003 foi marcada como resolvida conceitualmente, com detalhes remetidos às PEN-013/014/019/020/021 e à nova PEN-022 (Game Design). Sem mudanças no código ou documentos históricos.
+
+## Tom narrativo e sementes — 23/10/2026
+
+DEC-036 a DEC-038 aprovam adversários variados, resolução predominantemente não letal dos confrontos e um mundo encantador mas sujeito ao tempo e às perdas. PEN-023 a PEN-025 distribuem os detalhes entre as áreas. O novo `docs/02-universo/sementes-narrativas.md` reúne ideias futuras, sem transformá-las em roteiros definitivos.

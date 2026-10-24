@@ -1,6 +1,6 @@
 # Fundamentos filosóficos do universo
 
-> Status: princípios conceituais aprovados (DEC-010 a DEC-013, DEC-017 a DEC-025).
+> Status: princípios aprovados (DEC-010 a DEC-013, DEC-017 a DEC-025, DEC-036 a DEC-038).
 > Atualizado: 23/10/2026 (São Paulo).
 
 ## Frases centrais — preservar literalmente
@@ -14,6 +14,22 @@
 > **Os Selumins são criaturas vivas de um mundo mágico, não objetos ou manifestações sobrenaturais que simplesmente assumem formas de criaturas.**
 
 > **A magia desperta o encantamento; a familiaridade com a vida permite transportar esse encantamento para a realidade.**
+
+### Frases candidatas à revisão — não aprovadas como formulação oficial
+
+As cinco frases acima já foram confirmadas e devem permanecer literalmente iguais. Estas outras surgiram nas conversas como sugestões; ficam guardadas, **não** aprovadas automaticamente como novos princípios ou slogans:
+
+> Um pacto pode ser perdido, mas a confiança também pode ser reconstruída. A reconciliação é uma escolha, nunca uma obrigação.
+
+> A força do pacto está na qualidade da relação, não na quantidade de criaturas que alguém consegue invocar.
+
+> Nem todo adversário precisa ser um vilão, assim como nem todo conflito precisa terminar com a destruição de quem está do outro lado.
+
+> Vencer uma batalha não precisa significar tirar uma vida. E compreender um adversário pode ser tão importante quanto derrotá-lo.
+
+> Se você precisar de mim, farei o possível para estar ao seu lado. E, quando eu não puder, confiarei que você compreenderá.
+
+Outras frases que possam ter ficado de fora serão revisadas em rodadas futuras, sem atribuir-lhes aprovação retroativa.
 
 ### Interpretação ética
 
@@ -39,6 +55,19 @@ Humanos podem criar, planejar, ensinar, aprender, lutar e proteger. Não precisa
 ## Relações e vínculos (DEC-013, DEC-014, DEC-017 a DEC-020, DEC-023)
 
 A relação entre um humano e um Selumin não é posse. Amizade, ajuda e respeito têm valor mesmo sem pacto e sem invocação. O pacto é uma possibilidade especial, não uma obrigação ou prêmio pelo qual um Selumin teria de lutar. Recusa legítima não diminui sua dignidade nem enfraquece automaticamente a conexão: desconsiderar a autonomia do outro é que pode prejudicar o vínculo.
+
+## Alegria, magia e impermanência — DEC-038
+
+O mundo dos Selumins deve ser **animado, divertido, mágico e encantador**, mas com realismo emocional. Pessoas e criaturas envelhecem, mudam, podem se esquecer, se separar, sofrer perdas e morrer. Lugares se transformam, envelhecem em sentido ambiental, se degradam ou desaparecem. O objetivo não é tornar a aventura sombria: humor, esperança e descoberta convivem com a realidade da passagem do tempo. Ciclos específicos continuam pendentes (PEN-025).
+
+## Diversidade, conflitos e derrotas — DEC-036 e DEC-037
+
+- Existem outras criaturas e formas de vida mágica além dos Selumins; suas categorias ainda não foram definidas (PEN-023).
+- Adversários podem ser humanos, Selumins rivais, outras criaturas ou equipamentos. Ser adversário não equivale a ser intrinsecamente mau.
+- A derrota comum de um ser vivo pode representar fuga, retirada, rendição ou incapacitação, **não morte automática**.
+- Equipamentos e máquinas podem ser destruídos. Morte e ferimentos graves continuam possíveis quando tiverem sentido e consequências na narrativa, sem tornar oponentes malignos descartáveis.
+- A tradução disso para HP/vigor, animações e efeitos de combate fica com o chat 04 (PEN-024).
+- Possibilidades concretas de histórias estão separadas em [sementes-narrativas.md](sementes-narrativas.md), sem status de roteiro oficial.
 
 ## Aplicação à campanha inicial
 

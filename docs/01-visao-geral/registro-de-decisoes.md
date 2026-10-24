@@ -44,6 +44,10 @@
 | DEC-034 | Os sinais da Essência permitem ao parceiro perceber intuitivamente a diferença entre recusa voluntária e impedimento inesperado, sem informar necessariamente o motivo específico, localização ou situação exata; expressão dos sinais fica para PEN-013 e PEN-014. | Aprovada | História e Universo |
 | DEC-035 | Se o pacto se rompe com o Selumin ainda presente fisicamente após uma invocação, pode existir uma última oportunidade voluntária de retorno regional, como conclusão do transporte já iniciado, sem reativação do pacto. Não há retorno forçado ou automático e o transporte pode falhar por instabilidade. | Aprovada | História e Universo |
 
+| DEC-036 | O universo possui outras criaturas e formas de vida mágicas além de humanos e Selumins. Adversários podem incluir humanos, Selumins com objetivos opostos, outros seres mágicos e equipamentos ou máquinas; nenhuma espécie inteira é necessariamente vilã. Taxonomia das outras criaturas segue pendente. | Aprovada | História e Universo / Game Design |
+| DEC-037 | Nos confrontos comuns, a derrota de seres vivos não significa necessariamente morte: recuo, fuga, rendição e incapacitação são alternativas; máquinas e equipamentos podem ser destruídos. Ferimentos graves e mortes são possíveis, mas não constituem o resultado habitual ou obrigatório dos combates nem privilégio de quem se diz bom contra quem chama de maligno. Execução visual e mecânica fica para o chat 04. | Aprovada | História e Universo / Game Design |
+| DEC-038 | A experiência deve ser animada, divertida e mágica, com realismo emocional e consequências da vida. Humanos, Selumins e demais seres podem mudar, envelhecer, esquecer, se afastar, sofrer perdas e morrer; lugares também se transformam, degradam ou desaparecem. O encantamento e a esperança coexistem com a passagem do tempo, sem tornar tragédias obrigatórias na primeira campanha. | Aprovada | História e Universo / Visão Geral |
+
 ## Contexto adicional — ainda não consolidado como regra detalhada
 
 - A autonomia e a vida comunitária dos Selumins foram consolidadas nas DEC-009 e DEC-011; o pacto voluntário e a invocação sem artefatos, na DEC-014.
@@ -68,3 +72,5 @@ Para cada nova decisão aprovada: atribuir o próximo ID, registrar texto curto 
 - **23/10/2026:** registradas DEC-017 a DEC-025 com a formação e proteção dos pactos, duração e ruptura, consentimento dos chamados, falhas, teleporte/retorno físico e biologia/integração corporal dos Selumins. Detalhamento em `docs/02-universo/`.
 
 - **23/10/2026:** registradas DEC-026 a DEC-035, concluindo os fundamentos de distância, energia, múltiplos pactos, condução simultânea, interferências, resgates, retorno bloqueado, morte, sinais e último retorno após ruptura (PEN-003).
+
+- **23/10/2026:** DEC-036 a DEC-038 registram diversidade de seres e adversários, modelo híbrido de derrota e direção mágica, alegre e sensível à passagem do tempo.

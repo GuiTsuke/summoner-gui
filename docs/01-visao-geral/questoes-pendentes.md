@@ -32,6 +32,10 @@
 
 | PEN-022 | Progressão e limites de condução de invocações simultâneas | A progressão da capacidade humana de conduzir vários chamados sem manter fisicamente os Selumins foi aprovada (DEC-029). Definir números, condições, simultaneidade de chamadas, progressão, interface, balanceamento e restrições de equipe, sem confundir pactos com controle. | 04 — Game Design / 05 — Especificações e Marcos | Ao projetar invocações, progressão do protagonista e seleção de equipe | Aberta |
 
+| PEN-023 | Outras criaturas mágicas além dos Selumins | DEC-036 aprova sua existência. Detalhar distinção biológica, ecológica e cultural entre Selumins e demais formas de vida; nem toda criatura mágica é inimiga. | 02 — História e Universo / 03 — Identidade Visual | Ao criar habitantes da primeira região | Aberta |
+| PEN-024 | Derrotas, incapacitações e animações | DEC-037 aprova derrotas geralmente não letais de seres vivos e destruição de máquinas. Projetar animações de fuga, rendição, retirada, incapacitação, resistência, consequências e casos graves sem prejudicar o ritmo do Tower Defense. | 04 — Game Design / 03 — Identidade Visual | Ao detalhar o combate e os inimigos | Aberta |
+| PEN-025 | Tempo, envelhecimento, memória e perdas | DEC-038 estabelece impermanência no mundo. Refinar ciclos biológicos, esquecimento, mudanças sociais, envelhecimento e transformação de habitats sem impor tragédia nem longevidade única a todas as espécies. | 02 — História e Universo | Ao desenvolver ecossistemas e histórias | Aberta |
+
 ## Ritual de acompanhamento
 
 1. **Antes de iniciar** uma área, consultar as pendências atribuídas a ela.

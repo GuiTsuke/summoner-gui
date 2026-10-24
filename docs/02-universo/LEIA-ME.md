@@ -10,18 +10,20 @@ Construir o universo autoral dos Selumins para o Tower Defense SummonerGui (nome
 
 ## Documentos
 
-- [fundamentos-do-universo.md](fundamentos-do-universo.md): valores e mensagens centrais; humanidade e coexistência.
+- [fundamentos-do-universo.md](fundamentos-do-universo.md): valores, frases confirmadas, candidatas para revisão, humanidade e coexistência.
+- [sementes-narrativas.md](sementes-narrativas.md): banco de ideias de histórias e cenas futuras, que não são roteiros aprovados.
 - [essencia-e-selumins.md](essencia-e-selumins.md): natureza dos Selumins, Essência, ecologia e Marca da Essência.
 - [humanos-e-convivencia.md](humanos-e-convivencia.md): capacidades humanas, cooperação, tecnologia e conflitos éticos.
 - [vinculos-pactos-e-invocacao.md](vinculos-pactos-e-invocacao.md): diferença entre amizade e pacto, invocação, manifestações, capacidades e limites.
-- [../01-visao-geral/registro-de-decisoes.md](../01-visao-geral/registro-de-decisoes.md): índice de DEC-001 a DEC-035.
-- [../01-visao-geral/questoes-pendentes.md](../01-visao-geral/questoes-pendentes.md): pendências PEN-001 a PEN-022.
+- [../01-visao-geral/registro-de-decisoes.md](../01-visao-geral/registro-de-decisoes.md): índice de DEC-001 a DEC-038.
+- [../01-visao-geral/questoes-pendentes.md](../01-visao-geral/questoes-pendentes.md): pendências PEN-001 a PEN-025.
 
 ## Convenções
 
 - **Aprovado:** confirmado pelo criador e identificado por DEC; válido conceitualmente, não necessariamente implementado.
 - **Direção aprovada, mecanismo aberto:** potencial narrativo aceito, com gatilhos, restrições e execução por definir.
 - **Proposta/hipótese:** não assume aprovação, mesmo que apareça como exemplo.
+- **SN — Semente narrativa:** ideia armazenada para desenvolvimento posterior, sem virar acontecimento ou roteiro oficial. Frases candidatas não são frases confirmadas.
 - Nenhuma criatura perde autonomia por ter um pacto; os princípios de consentimento, recusa e fim dos pactos estão aprovados (DEC-017 a DEC-023); limitações e detalhes de execução continuam pendentes.
 - Um exemplo de cena não estabelece roteiro definitivo.
 
@@ -31,7 +33,7 @@ A origem exata da Essência, ciclos quantitativos, formas e desenhos das Marcas 
 
 ## Referências de decisões
 
-DEC-005, DEC-009 a DEC-035. A PEN-003 está resolvida conceitualmente; PEN-002 e PEN-013 a PEN-022 acompanham as questões que permanecem abertas.
+DEC-005, DEC-009 a DEC-038. A PEN-003 está resolvida conceitualmente; PEN-002 e PEN-013 a PEN-025 acompanham as questões que permanecem abertas.
 
 ## Nota de preservação
 

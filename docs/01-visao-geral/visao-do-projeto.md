@@ -49,6 +49,8 @@ Entregar uma **campanha inicial pequena, porém completa**, com começo, desenvo
 
 Defesas, alianças, melhorias e evoluções devem ter peso emocional quando a história pedir, sem impedir acesso rápido à jogabilidade.
 
+**Direção aprovada (DEC-036 a DEC-038):** o mundo abriga outras formas de vida mágica além dos Selumins, com inimigos variados. Derrotas ordinárias não implicam morte automática. A fantasia deve permanecer divertida, animada e encantadora, mas preservar envelhecimento, mudança, esquecimento, perda e consequências reais para criaturas, pessoas e lugares.
+
 ## Limites desta definição
 
 Este documento **não fixa** raridades, probabilidades, economia, atributos, níveis máximos, detalhes de combate, regras da invocação, história definitiva, orçamento, conteúdo exato do MVP ou calendário de lançamento. Esses temas serão trabalhados nos chats especializados e documentos correspondentes.
