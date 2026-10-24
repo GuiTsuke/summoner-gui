@@ -14,8 +14,8 @@ Construir o universo autoral dos Selumins para o Tower Defense SummonerGui (nome
 - [essencia-e-selumins.md](essencia-e-selumins.md): natureza dos Selumins, Essência, ecologia e Marca da Essência.
 - [humanos-e-convivencia.md](humanos-e-convivencia.md): capacidades humanas, cooperação, tecnologia e conflitos éticos.
 - [vinculos-pactos-e-invocacao.md](vinculos-pactos-e-invocacao.md): diferença entre amizade e pacto, invocação, manifestações, capacidades e limites.
-- [../01-visao-geral/registro-de-decisoes.md](../01-visao-geral/registro-de-decisoes.md): índice de DEC-001 a DEC-025.
-- [../01-visao-geral/questoes-pendentes.md](../01-visao-geral/questoes-pendentes.md): pendências PEN-001 a PEN-021.
+- [../01-visao-geral/registro-de-decisoes.md](../01-visao-geral/registro-de-decisoes.md): índice de DEC-001 a DEC-035.
+- [../01-visao-geral/questoes-pendentes.md](../01-visao-geral/questoes-pendentes.md): pendências PEN-001 a PEN-022.
 
 ## Convenções
 
@@ -31,7 +31,7 @@ A origem exata da Essência, ciclos quantitativos, formas e desenhos das Marcas 
 
 ## Referências de decisões
 
-DEC-005, DEC-009 a DEC-025. Consultar as PEN-002, PEN-003 e PEN-013 a PEN-021 para não converter hipóteses em fatos.
+DEC-005, DEC-009 a DEC-035. A PEN-003 está resolvida conceitualmente; PEN-002 e PEN-013 a PEN-022 acompanham as questões que permanecem abertas.
 
 ## Nota de preservação
 

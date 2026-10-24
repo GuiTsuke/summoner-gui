@@ -8,6 +8,7 @@
 - Essência é a fonte fundamental da magia (DEC-005).
 - Está presente por todo o mundo, inclusive na natureza que sustenta humanos e Selumins, manifestando-se em formas e intensidades diferentes (DEC-010).
 - Seu uso é natural e pode integrar a vida cotidiana; não é uma atividade inerentemente destrutiva.
+- Transportes por pactos utilizam Essência em quantidade normalmente pequena, sem cansaço significativo dos parceiros (DEC-027), enquanto desequilíbrios causados pela natureza ou atividade de seres vivos podem limitar o transporte (DEC-030).
 - Os Selumins são profundamente ligados a ela e conseguem intensificar seu uso naturalmente. Suas reservas/energias utilizadas têm limites e se recuperam pelo contato natural com o mundo.
 - Essência e ambientes têm capacidade de renovação, porém não são fontes infinitas de exploração: extração excessiva ou interferência na renovação pode comprometer o equilíbrio, os habitats e a vida.
 - Uma ameaça de colapso ambiental pode atingir todos os seres, inclusive humanos; não é argumento para excluir humanos do equilíbrio da natureza.

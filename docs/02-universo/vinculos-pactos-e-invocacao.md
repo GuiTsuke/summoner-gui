@@ -1,6 +1,6 @@
 # Vínculos, pactos e invocação
 
-> Status: fundamentos narrativos aprovados (DEC-013 a DEC-023, DEC-025); limites técnicos e exceções ainda abertos.
+> Status: fundamentos narrativos dos pactos consolidados (DEC-013 a DEC-023 e DEC-025 a DEC-035); PEN-003 conceitualmente resolvida. Detalhes especializados seguem em pendências próprias.
 > Atualizado: 23/10/2026 (São Paulo).
 
 ## 1. Amizade e cooperação não exigem pacto — DEC-013, DEC-014 e DEC-019
@@ -41,7 +41,8 @@ Humano e Selumin podem ser amigos, viajar, se proteger e lutar no mesmo lugar po
 
 - Uma invocação pode falhar por **recusa voluntária, fraqueza, ferimentos/debilidade, inconsciência, instabilidade regional da Essência ou enfraquecimento do vínculo**.
 - A falha pode gerar sinais misteriosos (sensações, sons, sonhos, reflexos e outras manifestações), inclusive indicando que algo está errado, sem revelar necessariamente o motivo exato.
-- A maneira de distinguir uma recusa de uma impossibilidade, regras de distância e tipos de feedback permanecem pendentes (PEN-003, PEN-013 e PEN-014).
+- Uma recusa voluntária é percebida intuitivamente de modo diferente de impedimento inesperado, sem revelar causa ou localização exatas (DEC-034). Os sinais concretos continuam para PEN-013 e PEN-014.
+- Se inconsciente ou impossibilitado de responder, o Selumin pode receber resgate por invocação quando houver autorização prévia e genuína aplicável à emergência, sem vontade contrária conhecida, e a Essência permitir (DEC-031). O transporte não resolve todos os perigos.
 
 ## 6. Transporte físico e retorno regional — DEC-021, DEC-022 e DEC-025
 
@@ -49,9 +50,12 @@ Humano e Selumin podem ser amigos, viajar, se proteger e lutar no mesmo lugar po
 - O Selumin deixa o local anterior e chega ao humano vinculado; a ligação é entre ambos, sem artefato.
 - Quando a participação termina e há concordância, o retorno o leva para **o lugar/região onde estava imediatamente antes da invocação** — não necessariamente sua moradia/habitat, nem a coordenada exata.
 - Alterações pequenas e obstáculos comuns no espaço original não devem gerar complicações artificiais: a região importa, não cada objeto.
-- **Instabilidade relevante da Essência na região de retorno** pode impedir o transporte. Perigo físico por si só não significa bloqueio mágico. Nessa situação, pode ser necessária uma jornada física para investigar o ocorrido e alcançar parentes, lares ou comunidades.
+- **Instabilidade relevante da Essência na região de retorno** pode impedir o transporte. Perigo físico por si só não significa bloqueio mágico. Quando bloqueado, o Selumin fica onde está: pode aguardar a normalização ou viajar fisicamente e investigar os acontecimentos. Não existe desvio automático (DEC-032).
+- A interferência pode ser natural ou consequência de atividades de humanos ou Selumins, como exploração e desequilíbrio ambiental (DEC-030). Não foram aprovadas técnicas específicas para bloquear pactos.
 - O transporte **não apaga ferimentos, cansaço ou condições orgânicas**: cuidados e recuperação podem ser necessários antes de outra invocação.
-- Não estão fixados o método de escolha de área segura dentro da região, transporte em condições-limite, destinos alternativos, alcance máximo ou custos (PEN-003, PEN-019, PEN-020).
+- **Distância:** não há limite máximo geográfico comum para um pacto no mesmo mundo; condições da Essência ainda podem impedir o transporte (DEC-026).
+- **Consumo:** toda invocação utiliza Essência em quantidade normalmente pequena e sem gerar cansaço significativo em condições usuais (DEC-027).
+- Escolha detalhada de destino seguro, transporte sob condições-limite e custos numéricos ficam para PEN-019 e PEN-022, respectivamente.
 
 ## 7. Encerramento da participação sem domínio — DEC-023
 
@@ -60,25 +64,38 @@ Humano e Selumin podem ser amigos, viajar, se proteger e lutar no mesmo lugar po
 - O Selumin jamais pode ser obrigado a permanecer, e o humano **não pode forçá-lo a ser teletransportado de volta contra a sua vontade**.
 - Mesmo quando um humano deseja enviar o parceiro embora por proteção, um Selumin pode escolher livremente ficar para ajudá-lo ou se arriscar. A força do pacto não pode ser usada para substituir a vontade de qualquer parceiro.
 - Se o Selumin precisa ir embora, o humano não pode mantê-lo preso; as situações em que as vontades divergem serão lapidadas sem poderes de controle de pessoas.
+- Após rompimento do pacto enquanto o Selumin já está no local invocado, pode haver uma última oportunidade **voluntária** de retorno, como conclusão da invocação anterior, nunca como reativação de pactos (DEC-035). Se houver bloqueio da Essência, pode falhar.
 
 ## 8. Manifestações sobrenaturais e conexão extraordinária — DEC-015 e DEC-016
 
 O pacto pode ter sinais latentes e sensoriais: sonhos, brilhos, reflexos, sombras, espectros, sons e respostas da natureza. Não exige marca corporal permanente, nem simples duplicação da Marca elemental dos Selumins. Forma de múltiplos pactos e linguagem visual própria estão em aberto (PEN-013).
 
-Há direção aprovada para: percepção de perigo de parceiros distantes, comunicação emocional mais precisa em laços profundos e invocação excepcional **do humano pelo Selumin** (PEN-014). Isso não aprova telepatia constante, vigilância, teleporte involuntário, alcance infinito nem custos inexistentes.
+Há direção aprovada para: percepção de perigo de parceiros distantes, comunicação emocional mais precisa em laços profundos e invocação excepcional **do humano pelo Selumin** (PEN-014). Isso não aprova telepatia constante, vigilância, teleporte involuntário, viagens entre mundos nem eficácia garantida quando a Essência estiver instável.
 
-## 9. Impacto previsto no jogo (não especificado aqui)
+## 9. Pactos múltiplos e condução simultânea — DEC-028 e DEC-029
+
+- Humanos e Selumins podem manter **vários pactos genuínos**, sem exclusividade, posse ou obrigação de multiplicar vínculos.
+- O mesmo Selumin existe em um só corpo; chamado por parceiros diferentes, mantém a escolha de quem atender. Pacto não garante prioridade sobre outros seres.
+- Invocações simultâneas são possíveis. Humanos podem evoluir sua capacidade de **conduzir/coordenar chamados** pela experiência com os pactos, sem adquirir manipulação inata da Essência.
+- Após o transporte, o Selumin continua existindo fisicamente mesmo sem sustentação mágica contínua do humano. Quantidade de aliados, limites e progressão são de Game Design (PEN-022).
+
+## 10. Morte e vestígios da conexão — DEC-033
+
+A morte de um parceiro encerra o pacto ativo, sem continuidade da invocação. Vestígios sutis da Essência, sensações e lembranças podem permanecer sem equivaler a espírito invocável, ressurreição nem suspensão da finitude. A representação exata é tema de PEN-013.
+
+## 11. Impacto previsto no jogo (não especificado aqui)
 
 A indisponibilidade de Selumins por compromissos, recusas ou ferimentos pode motivar capítulos/eventos com opções de equipe temporariamente reduzidas ou diferentes; a implementação deve ser estudada em **04 — Game Design** (PEN-018). A coleção permanente (DEC-002) precisa continuar compatível com a autonomia do Selumin, mesmo quando um pacto se rompe (PEN-021).
 
-## 10. Pendências e história futura
+## 12. Pendências e história futura
 
-- PEN-003: alcance, custos, pactos múltiplos, decisões em casos-limite e barreiras.
+- **PEN-003: concluída conceitualmente** pelas DEC-014 a DEC-023 e DEC-026 a DEC-035.
 - PEN-013: manifestações e identidade visual.
 - PEN-014: conexão profunda, limites e invocação reversa.
 - PEN-019: exceções de retorno, lugar destruído ou instável e condições de segurança.
 - PEN-020: ferimentos e recuperação na jogabilidade.
-- PEN-021: ruptura de pacto versus coleção/progressão permanente.
+- PEN-021: ruptura, pactos múltiplos e coleção/progressão permanente.
+- PEN-022: capacidade, números e progressão de invocações simultâneas no jogo.
 - PEN-004 e PEN-009: escolha de vínculo e roteiro exato da campanha inicial **não aprovados**.
 
 A ideia da floresta ameaçada pode demonstrar a importância de cooperar sem pacto; seu roteiro continua em exploração, não fixado.
